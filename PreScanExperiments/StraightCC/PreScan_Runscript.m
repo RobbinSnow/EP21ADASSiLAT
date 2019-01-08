@@ -7,6 +7,8 @@
 % step 6; save data to Excel
 % step 7: close experiment and prepare for python call another script
 
+% this line is intended for github testing.
+
 %% init
 % PreScan project name
 mdlName = 'StraightCC_cs';
