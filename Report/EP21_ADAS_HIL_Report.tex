@@ -1,0 +1,191 @@
+\documentclass[12pt]{report} 
+\title{EP21 ADAS HIL Report} 
+\author{Caoxing} 
+\date{\today} 
+\usepackage{float} 
+\usepackage[english]{babel} 
+\usepackage[utf8]{inputenc} 
+\usepackage{fancyhdr} 
+\usepackage{graphicx} 
+\usepackage{subfigure} 
+\usepackage[nottoc,notlot,notlof]{tocbibind}  
+\usepackage{cite} 
+\usepackage{tikz}  
+\usepackage{color} 
+\usepackage[toc,page]{appendix} 
+\usepackage[ nonumberlist,acronym,toc,section]{glossaries}  
+\usepackage{CJK} 
+\usepackage[ 
+colorlinks=true, 
+urlcolor=pdfurlcolor, 
+filecolor=pdffilecolor, 
+linkcolor=black, 
+raiselinks=true, 
+breaklinks, 
+backref=page, 
+pagebackref=false, 
+verbose, 
+hyperindex=true, 
+linktocpage=true, 
+hyperfootnotes=false, 
+bookmarks=true, 
+bookmarksopen=true, 
+bookmarksopenlevel=\maxdimen, 
+bookmarksnumbered=true, 
+bookmarkstype=toc, 
+plainpages=false, 
+pageanchor=true, 
+pdftitle=EP21 ADAS HIL Report, 
+pdfauthor=Caoxing, 
+pdfcreator={MATLAB}, 
+pdfstartview=Fit, 
+pdfpagemode=UseOutlines, 
+pdfpagelabels=true, 
+pdfpagelayout=TwoPageRight, 
+]{hyperref} 
+\pagestyle{fancy} 
+\fancyhf{} 
+\rhead{EP21 ADAS HIL Test} 
+\lhead{SAIC Motor} 
+\rfoot{Page \thepage} 
+ 
+%%%%%%% OPTIONAL HEADER %%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\begin{document} 
+\maketitle 
+\centerline{\Large{\textbf{Result List}}} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{30bp}\=blank\hspace*{30bp}\=testcasename\hspace*{200bp} \=result\kill 
+\>\textit{\underline{\ref{w1}}} \>SAIC CCC Stright 5PctIncreace 30-90\>Pass\\ 
+\>\textit{\underline{\ref{w2}}} \>SAIC CCC Stright 5PctIncreace 40-40\>\textcolor[rgb]{1,0,0}{Fail}\\ 
+\>\textit{\underline{\ref{w3}}} \>SAIC CCC Stright 5PctIncreace 120-60\>\textcolor[rgb]{1,1,0}{LostConnection}\\ 
+\end{tabbing} 
+\end{CJK} 
+\newpage 
+\section{SAIC CCC Stright 5PctIncreace 30-90} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>SAIC CCC Stright 5PctIncreace 30-90\\ 
+ \>Result:\>Pass\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>04-Dec-2018\\ 
+\end{tabbing} 
+\end{CJK} 
+\label{w1} 
+\begin{figure}[h!]  
+\centering  
+\subfigure{ 
+\begin{minipage}[t]{0.4\linewidth} 
+%\centering 
+\includegraphics[width=2in]{fig10001.eps} 
+\end{minipage} 
+} 
+\subfigure{ 
+\begin{minipage}[t]{0.4\linewidth} 
+%\centering 
+\includegraphics[width=2in]{fig10002.eps} 
+\end{minipage} 
+} 
+ 
+\subfigure{ 
+\begin{minipage}[t]{0.4\linewidth} 
+%\centering 
+\includegraphics[width=2in]{fig10002.eps} 
+\end{minipage} 
+} 
+\subfigure{ 
+\begin{minipage}[t]{0.4\linewidth} 
+%\centering 
+\includegraphics[width=2in]{fig10003.eps} 
+\end{minipage} 
+} 
+\caption{TestData} 
+\end{figure} 
+\newpage 
+\section{SAIC CCC Stright 5PctIncreace 40-40} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>SAIC CCC Stright 5PctIncreace 40-40\\ 
+ \>Result:\>Fail\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>04-Dec-2018\\ 
+\end{tabbing} 
+\end{CJK} 
+\label{w2} 
+\begin{figure}[h!]  
+\centering  
+\subfigure{ 
+\begin{minipage}[t]{0.4\linewidth} 
+%\centering 
+\includegraphics[width=2in]{fig10005.eps} 
+\end{minipage} 
+} 
+\subfigure{ 
+\begin{minipage}[t]{0.4\linewidth} 
+%\centering 
+\includegraphics[width=2in]{fig10006.eps} 
+\end{minipage} 
+} 
+ 
+\subfigure{ 
+\begin{minipage}[t]{0.4\linewidth} 
+%\centering 
+\includegraphics[width=2in]{fig10006.eps} 
+\end{minipage} 
+} 
+\subfigure{ 
+\begin{minipage}[t]{0.4\linewidth} 
+%\centering 
+\includegraphics[width=2in]{fig10007.eps} 
+\end{minipage} 
+} 
+\caption{TestData} 
+\end{figure} 
+\newpage 
+\section{SAIC CCC Stright 5PctIncreace 120-60} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>SAIC CCC Stright 5PctIncreace 120-60\\ 
+ \>Result:\>LostConnection\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>04-Dec-2018\\ 
+\end{tabbing} 
+\end{CJK} 
+\label{w3} 
+\begin{figure}[h!]  
+\centering  
+\subfigure{ 
+\begin{minipage}[t]{0.4\linewidth} 
+%\centering 
+\includegraphics[width=2in]{fig10009.eps} 
+\end{minipage} 
+} 
+\subfigure{ 
+\begin{minipage}[t]{0.4\linewidth} 
+%\centering 
+\includegraphics[width=2in]{fig10010.eps} 
+\end{minipage} 
+} 
+ 
+\subfigure{ 
+\begin{minipage}[t]{0.4\linewidth} 
+%\centering 
+\includegraphics[width=2in]{fig10010.eps} 
+\end{minipage} 
+} 
+\subfigure{ 
+\begin{minipage}[t]{0.4\linewidth} 
+%\centering 
+\includegraphics[width=2in]{fig10011.eps} 
+\end{minipage} 
+} 
+\caption{TestData} 
+\end{figure} 
+\end{document} 
