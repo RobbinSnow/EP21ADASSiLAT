@@ -9,7 +9,13 @@
 
 %% init
 % PreScan project name
-mdlName = 'StraightCC_cs';
+disp('MATLAB script running...')
+CurrentFolder = pwd;% get current working folder
+SlashIndex = regexp(CurrentFolder,'\');% split folder location by slash
+ExpName = CurrentFolder(SlashIndex(end)+1:end);%StraightSlope
+mdlName = strcat(ExpName,'_cs');
+ResultFolder = CurrentFolder(1:SlashIndex(end-1));% E:\EP21ADASSiLAT\
+% mdlName = 'StraightCC_cs';
 % make sure previous settings are ignored.
 clear Results Run;
 myDictionaryDesignData;% load SFunction datadictionary
@@ -17,7 +23,7 @@ MotorPara;% Load EP21 motor data
 
 %% step 1: set the PreScan Scene Struct
 % parameters needed to be changed in PreScan
-Run.Settings = {'SlopeAngle', [0,5]};
+Run.Settings = {'SlopeAngle', 0};
 
 %% step 2: start CarSim and check dataset valid
 disp('starting CarSim...')
@@ -49,45 +55,37 @@ for i = 1:length(testcaseCell)
     if ~isempty(regexp(testcaseString,'CCC', 'once'))
         CCCFlag = 1;
         CCCArray = String2Number(testcaseString);
-    else if ~isempty(regexp(testcaseString,'ACC', 'once'))
-            ACCFlag = 1;
-            Array = String2Number(testcaseString);
-            else if ~isempty(regexp(testcaseString,'LKA', 'once'))
-                LKAFlag = 1;
-                LKAArray = String2Number(testcaseString);
-                end
-        end
+    end
+    if ~isempty(regexp(testcaseString,'ACC', 'once'))
+        ACCFlag = 1;
+        ACCArray = String2Number(testcaseString);
+    end
+    if ~isempty(regexp(testcaseString,'LKA', 'once'))
+        LKAFlag = 1;
+        LKAArray = String2Number(testcaseString);
     end
 end
 CCCCaseNo = length(CCCArray)/2;
 CCCCasei = 1;
-ACCCaseNo = length(Array)/2;
+ACCCaseNo = length(ACCArray)/2;
 ACCCasei = 1;
 LKACaseNo = length(LKAArray)/2;
 LKACasei = 1;
 TestcaseNo = CCCCaseNo + ACCCaseNo + LKACaseNo;
 
 %% step 4: use for-loop to set the dos command string
-% disp('Setting-up variables...');
-% disp('------------------------');
+
 ExeName = 'PreScan.CLI.exe';
 ExperimentName = 'StraightCC';
-MainExperiment = pwd;
-ExperimentDir = [pwd '\..'];
-% ResultsDir = [MainExperiment '\Results\ExperimentRamp_' sprintf('%04.0f%02.0f%02.0f_%02.0f%02.0f%02.0f',clock)];
+MainExperiment = CurrentFolder;% pwd
+ExperimentDir = [CurrentFolder '\..'];
 
 % Number of simulations for each scenario
 SceneNo = length(Run.Settings{2});
-% Number of beams on the TIS sensor (as defined in the Experiment Editor).
-% NumBeams = 3;
-% Results(NrOfRuns).Data = []; % Preallocate results structure.
-% disp(['Scheduling ' num2str(NrOfRuns) ' simulations...']);
-% disp('-------------------------');
-myDictionaryDesignData % loading datadictionary
+
 if CarSimFlag&&(CCCFlag||ACCFlag||LKAFlag)% if CarSim OK and Testcases OK  
     for i = 1:SceneNo
         disp(['Scene: ' num2str(i) '/' num2str(SceneNo)]);
-        RunModel='StraightCC_cs';
         Command = ExeName;
         Command = [Command ' -load ' '"' MainExperiment '"'];
         tag = Run.Settings{1};
@@ -121,31 +119,32 @@ if CarSimFlag&&(CCCFlag||ACCFlag||LKAFlag)% if CarSim OK and Testcases OK
             h.Yellow('*SPEED',num2str(VPIDIn));% set init Vx in CarSim
             h.GoHome();% CarSim goto homepage
             h.RunButtonClick(2);% click CarSim send to Simulink button, to generate the refreshed simfile
+%             configureMatlabForPrescan;
             dos(Command);% use dos command to control PreScan: load parse build close......
             % for more dos commands, using dos to open PreScan to see the
             % function reference help
 %             SimPreScan(RunModel);
             disp('PreScan Simulink model regenerating...')
-            open_system(RunModel);
+            open_system(mdlName);
             % Regenerate compilation sheet.
-            regenButtonHandle = find_system(RunModel, 'FindAll', 'on', 'type', 'annotation','text','Regenerate');
+            regenButtonHandle = find_system(mdlName, 'FindAll', 'on', 'type', 'annotation','text','Regenerate');
             regenButtonCallbackText = get_param(regenButtonHandle,'ClickFcn');
             eval(regenButtonCallbackText);
             % Determine simulation start and end times (avoid infinite durations).
-            activeConfig = getActiveConfigSet(RunModel);
+            activeConfig = getActiveConfigSet(mdlName);
             startTime = str2double(get_param(activeConfig, 'StartTime'));
             endTime = str2double(get_param(activeConfig, 'StopTime'));
             duration = endTime - startTime;
             if (duration == Inf)
-                endTime = startTime + 60;
+                endTime = startTime + 10;
             end
             % Simulate the new model.
             disp('PreScan Simulink model running...')
-            sim(RunModel, [0 30]);
-            save_system(RunModel);
-            close_system(RunModel);
+            sim(mdlName, [startTime endTime]);
+            save_system(mdlName);
+            close_system(mdlName);
             
-            filename=strcat('E:\EP21ADASSIL\Report\Data\01CCC\CCC',num2str(i*CCCCaseNo-CCCCaseNo+CCCCasei,'%03i'),'StraightSlope',num2str(val),'%Spd',num2str(CCCArray(2*CCCCasei-1)),'.xlsx');
+            filename = strcat(ResultFolder,'Report\Data\01CCC\CCC',num2str(i*CCCCaseNo-CCCCaseNo+CCCCasei,'%03i'),ExpName,num2str(val),'%Spd',num2str(CCCArray(2*CCCCasei-1)),'.xlsx');
             colname = {'Time','ACCReqSt','ACCReqVa','ACCSysSt','AEBReqSt','AEBReqVa','AEBSysSt','AVz','Ax','Ay','CanclSw','DisDecSw','DisIncSw','LockedID','LockedVx','LockedX','LockedY','MemSpd','OnSw','RsmSw','SetSpd','SetSw','SpdDecSw','SpdIncSw','Steer_SW','StrAV_SW','ToqReqSt','ToqReqVa','T_Stamp','Vx'};
             M = [Time,ACCReqSt,ACCReqVa,ACCSysSt,AEBReqSt,AEBReqVa,AEBSysSt,AVz,Ax,Ay,CanclSw,DisDecSw,DisIncSw,LockedID,LockedVx,LockedX,LockedY,MemSpd,OnSw,RsmSw,SetSpd,SetSw,SpdDecSw,SpdIncSw,Steer_SW,StrAV_SW,ToqReqSt,ToqReqVa,T_Stamp,Vx];
             xlswrite(filename,colname,1);
@@ -153,10 +152,59 @@ if CarSimFlag&&(CCCFlag||ACCFlag||LKAFlag)% if CarSim OK and Testcases OK
             CCCCasei = CCCCasei + 1;
         end
 %------------------------------------------------------------------------        
-%         ACCCasei=1;
-%         while ACCCasei<=ACCCaseNo
-% 
-%         end
+        ACCCasei = 1;
+        while ACCCasei<=ACCCaseNo
+            disp('Now ACC is under test...');
+            ADASID=2;%ADAS test ID,2 for normal ACC
+            V0=ACCArray(2*ACCCasei-1);%init Spd for ACC
+            disp(strcat('ACC init Spd is:',num2str(V0)));
+            V1=ACCArray(2*ACCCasei);%final Spd for ACC
+            disp(strcat('ACC final Spd is:',num2str(V1)));
+            CCCDuration=5;%time interval between Spd change demands
+            
+            VPIDIn=ACCArray(2*ACCCasei-1);% init Vx of testcase, for PID controller before DCU come into force
+            VToleranceIn = 1;% Vx Error Tolerance in kph
+            VDurationIn = 2;% Vx steady time in PID controller in sec
+            VAccuracyIn = 0.8;% Vx Accuracy in VDuration time in percent         
+            
+            disp('CarSim sending to MATLAB');
+            h.Gotolibrary('Procedures','FlatGround','EP21_ADAS_SIL');% CarSim goto the specified library
+            h.Unlock();% CarSim unlock dataset           
+            h.Yellow('*SPEED',num2str(VPIDIn));% set init Vx in CarSim
+            h.GoHome();% CarSim goto homepage
+            h.RunButtonClick(2);% click CarSim send to Simulink button, to generate the refreshed simfile
+%             configureMatlabForPrescan;
+            dos(Command);% use dos command to control PreScan: load parse build close......
+            % for more dos commands, using dos to open PreScan to see the
+            % function reference help
+%             SimPreScan(RunModel);
+            disp('PreScan Simulink model regenerating...')
+            open_system(mdlName);
+            % Regenerate compilation sheet.
+            regenButtonHandle = find_system(mdlName, 'FindAll', 'on', 'type', 'annotation','text','Regenerate');
+            regenButtonCallbackText = get_param(regenButtonHandle,'ClickFcn');
+            eval(regenButtonCallbackText);
+            % Determine simulation start and end times (avoid infinite durations).
+            activeConfig = getActiveConfigSet(mdlName);
+            startTime = str2double(get_param(activeConfig, 'StartTime'));
+            endTime = str2double(get_param(activeConfig, 'StopTime'));
+            duration = endTime - startTime;
+            if (duration == Inf)
+                endTime = startTime + 10;
+            end
+            % Simulate the new model.
+            disp('PreScan Simulink model running...')
+            sim(mdlName, [startTime endTime]);
+            save_system(mdlName);
+            close_system(mdlName);
+            
+            filename = strcat(ResultFolder,'Report\Data\02ACC\ACC',num2str(i*ACCCaseNo-ACCCaseNo+ACCCasei,'%03i'),ExpName,num2str(val),'%Spd',num2str(ACCArray(2*ACCCasei-1)),'.xlsx');
+            colname = {'Time','ACCReqSt','ACCReqVa','ACCSysSt','AEBReqSt','AEBReqVa','AEBSysSt','AVz','Ax','Ay','CanclSw','DisDecSw','DisIncSw','LockedID','LockedVx','LockedX','LockedY','MemSpd','OnSw','RsmSw','SetSpd','SetSw','SpdDecSw','SpdIncSw','Steer_SW','StrAV_SW','ToqReqSt','ToqReqVa','T_Stamp','Vx'};
+            M = [Time,ACCReqSt,ACCReqVa,ACCSysSt,AEBReqSt,AEBReqVa,AEBSysSt,AVz,Ax,Ay,CanclSw,DisDecSw,DisIncSw,LockedID,LockedVx,LockedX,LockedY,MemSpd,OnSw,RsmSw,SetSpd,SetSw,SpdDecSw,SpdIncSw,Steer_SW,StrAV_SW,ToqReqSt,ToqReqVa,T_Stamp,Vx];
+            xlswrite(filename,colname,1);
+            xlswrite(filename,M,1,'A2');
+            ACCCasei = ACCCasei + 1;
+        end
 %------------------------------------------------------------------------        
 %         ACCCasei=1;
 %         while LKACasei<=LKACaseNo

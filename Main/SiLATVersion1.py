@@ -29,18 +29,18 @@ import subprocess
 eng=matlab.engine.connect_matlab()
 
 # get all the filefolder
-expPath='E:\EP21ADASSIL\PreScanExperiments'# folder storing all the PreScan experiments
+expPath='E:\EP21ADASSiLAT\PreScanExperiments'# folder storing all the PreScan experiments
 fileList=os.listdir(expPath)# get all the experiments' name
 for f in fileList:
 	path=''.join([expPath,'/',f])
 	eng.cd(path)# change MATLAB working directory
-	time.sleep(2)# seconds you want to wait
+	time.sleep(5)# seconds you want to wait
 	eng.PreScan_Runscript(nargout=0)# Run MATLAB script to control PreScan
 # change to report path and generate report
-reportPath='E:\EP21ADASSIL\Report'
-eng.cd(reportPath)
-eng.ReportLatex(nargout=0)
-eng.quit()# quit the connection with MATLAB 
+#reportPath='E:\EP21ADASSIL\Report'
+#eng.cd(reportPath)
+#eng.ReportLatex(nargout=0)
+#eng.quit()# quit the connection with MATLAB 
 
 # how to get matlab.m run state
 	
