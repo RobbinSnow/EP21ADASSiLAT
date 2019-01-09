@@ -1,0 +1,134 @@
+2019-01-08 13:31:47,552 [Main PreScanGui Thread] ERROR (0) - Exception occured while handling ExperimentOpened event in plugin 'PBCameraPlugin': The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception. ---> System.TypeInitializationException: The type initializer for 'SWIGExceptionHelper' threw an exception. ---> System.DllNotFoundException: Unable to load DLL 'visdetailedcs': 找不到指定的模块。 (Exception from HRESULT: 0x8007007E)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_visdetailedcs(ExceptionDelegate applicationDelegate, ExceptionDelegate arithmeticDelegate, ExceptionDelegate divideByZeroDelegate, ExceptionDelegate indexOutOfRangeDelegate, ExceptionDelegate invalidCastDelegate, ExceptionDelegate invalidOperationDelegate, ExceptionDelegate ioDelegate, ExceptionDelegate nullReferenceDelegate, ExceptionDelegate outOfMemoryDelegate, ExceptionDelegate overflowDelegate, ExceptionDelegate systemExceptionDelegate)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..ctor()
+   at visdetailed.visdetailedcsPINVOKE..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.new_RegionNameDataMap__SWIG_0()
+   at PBCameraPlugin.PreScanPBCameraPlugin.loadRegionAssignmentForObject(String experimentDirectory, IWorldObject worldObject, List`1& sharedObjects)
+   at PBCameraPlugin.PreScanPBCameraPlugin.InitMaterialAssignmentModel(String experimentDirectory)
+   at PBCameraPlugin.PreScanPBCameraPlugin.ExperimentOpened(String experimentDirectory)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at PreScan.PluginFrameworkImplementation.PreScanAPI.????????????????????????????????????????(Delegate , String , Object[] )
+2019-01-08 13:31:48,823 [Main PreScanGui Thread] WARN  (0) - LoadCurrentExperimentIntoViewer: VisViewer is not available.
+2019-01-08 13:31:48,826 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightACC' state changed to Opened
+2019-01-08 13:31:53,757 [Main PreScanGui Thread] WARN  (0) - LoadCurrentExperimentIntoViewer: VisViewer is not available.
+2019-01-08 13:31:54,679 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightACC' state changed to Saved
+2019-01-08 15:36:23,665 [Main PreScanGui Thread] ERROR (0) - Exception occured while handling ExperimentOpened event in plugin 'PBCameraPlugin': The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception. ---> System.TypeInitializationException: The type initializer for 'SWIGExceptionHelper' threw an exception. ---> System.DllNotFoundException: Unable to load DLL 'visdetailedcs': 找不到指定的模块。 (Exception from HRESULT: 0x8007007E)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_visdetailedcs(ExceptionDelegate applicationDelegate, ExceptionDelegate arithmeticDelegate, ExceptionDelegate divideByZeroDelegate, ExceptionDelegate indexOutOfRangeDelegate, ExceptionDelegate invalidCastDelegate, ExceptionDelegate invalidOperationDelegate, ExceptionDelegate ioDelegate, ExceptionDelegate nullReferenceDelegate, ExceptionDelegate outOfMemoryDelegate, ExceptionDelegate overflowDelegate, ExceptionDelegate systemExceptionDelegate)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..ctor()
+   at visdetailed.visdetailedcsPINVOKE..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.new_RegionNameDataMap__SWIG_0()
+   at PBCameraPlugin.PreScanPBCameraPlugin.loadRegionAssignmentForObject(String experimentDirectory, IWorldObject worldObject, List`1& sharedObjects)
+   at PBCameraPlugin.PreScanPBCameraPlugin.InitMaterialAssignmentModel(String experimentDirectory)
+   at PBCameraPlugin.PreScanPBCameraPlugin.ExperimentOpened(String experimentDirectory)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at PreScan.PluginFrameworkImplementation.PreScanAPI.????????????????????????????????????????(Delegate , String , Object[] )
+2019-01-08 15:36:24,658 [Main PreScanGui Thread] WARN  (0) - LoadCurrentExperimentIntoViewer: VisViewer is not available.
+2019-01-08 15:36:24,659 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightACC' state changed to Opened
+2019-01-08 15:36:28,223 [Main PreScanGui Thread] WARN  (0) - LoadCurrentExperimentIntoViewer: VisViewer is not available.
+2019-01-08 15:36:28,575 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightACC' state changed to Saved
+2019-01-09 09:31:24,525 [Main PreScanGui Thread] ERROR (0) - Exception occured while handling ExperimentOpened event in plugin 'PBCameraPlugin': The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception. ---> System.TypeInitializationException: The type initializer for 'SWIGExceptionHelper' threw an exception. ---> System.DllNotFoundException: Unable to load DLL 'visdetailedcs': 找不到指定的模块。 (Exception from HRESULT: 0x8007007E)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_visdetailedcs(ExceptionDelegate applicationDelegate, ExceptionDelegate arithmeticDelegate, ExceptionDelegate divideByZeroDelegate, ExceptionDelegate indexOutOfRangeDelegate, ExceptionDelegate invalidCastDelegate, ExceptionDelegate invalidOperationDelegate, ExceptionDelegate ioDelegate, ExceptionDelegate nullReferenceDelegate, ExceptionDelegate outOfMemoryDelegate, ExceptionDelegate overflowDelegate, ExceptionDelegate systemExceptionDelegate)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..ctor()
+   at visdetailed.visdetailedcsPINVOKE..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.new_RegionNameDataMap__SWIG_0()
+   at PBCameraPlugin.PreScanPBCameraPlugin.loadRegionAssignmentForObject(String experimentDirectory, IWorldObject worldObject, List`1& sharedObjects)
+   at PBCameraPlugin.PreScanPBCameraPlugin.InitMaterialAssignmentModel(String experimentDirectory)
+   at PBCameraPlugin.PreScanPBCameraPlugin.ExperimentOpened(String experimentDirectory)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at PreScan.PluginFrameworkImplementation.PreScanAPI.????????????????????????????????????????(Delegate , String , Object[] )
+2019-01-09 09:31:25,600 [Main PreScanGui Thread] WARN  (0) - LoadCurrentExperimentIntoViewer: VisViewer is not available.
+2019-01-09 09:31:25,601 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightACC' state changed to Opened
+2019-01-09 09:31:29,621 [Main PreScanGui Thread] WARN  (0) - LoadCurrentExperimentIntoViewer: VisViewer is not available.
+2019-01-09 09:31:30,038 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightACC' state changed to Saved
+2019-01-09 10:19:13,689 [Main PreScanGui Thread] ERROR (0) - Exception occured while handling ExperimentOpened event in plugin 'PBCameraPlugin': The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception. ---> System.TypeInitializationException: The type initializer for 'SWIGExceptionHelper' threw an exception. ---> System.DllNotFoundException: Unable to load DLL 'visdetailedcs': 找不到指定的模块。 (Exception from HRESULT: 0x8007007E)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_visdetailedcs(ExceptionDelegate applicationDelegate, ExceptionDelegate arithmeticDelegate, ExceptionDelegate divideByZeroDelegate, ExceptionDelegate indexOutOfRangeDelegate, ExceptionDelegate invalidCastDelegate, ExceptionDelegate invalidOperationDelegate, ExceptionDelegate ioDelegate, ExceptionDelegate nullReferenceDelegate, ExceptionDelegate outOfMemoryDelegate, ExceptionDelegate overflowDelegate, ExceptionDelegate systemExceptionDelegate)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..ctor()
+   at visdetailed.visdetailedcsPINVOKE..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.new_RegionNameDataMap__SWIG_0()
+   at PBCameraPlugin.PreScanPBCameraPlugin.loadRegionAssignmentForObject(String experimentDirectory, IWorldObject worldObject, List`1& sharedObjects)
+   at PBCameraPlugin.PreScanPBCameraPlugin.InitMaterialAssignmentModel(String experimentDirectory)
+   at PBCameraPlugin.PreScanPBCameraPlugin.ExperimentOpened(String experimentDirectory)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at PreScan.PluginFrameworkImplementation.PreScanAPI.????????????????????????????????????????(Delegate , String , Object[] )
+2019-01-09 10:19:14,753 [Main PreScanGui Thread] WARN  (0) - LoadCurrentExperimentIntoViewer: VisViewer is not available.
+2019-01-09 10:19:14,753 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightACC' state changed to Opened
+2019-01-09 10:19:18,836 [Main PreScanGui Thread] WARN  (0) - LoadCurrentExperimentIntoViewer: VisViewer is not available.
+2019-01-09 10:19:19,182 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightACC' state changed to Saved
+2019-01-09 10:23:44,407 [Main PreScanGui Thread] ERROR (0) - Exception occured while handling ExperimentOpened event in plugin 'PBCameraPlugin': The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception. ---> System.TypeInitializationException: The type initializer for 'SWIGExceptionHelper' threw an exception. ---> System.DllNotFoundException: Unable to load DLL 'visdetailedcs': 找不到指定的模块。 (Exception from HRESULT: 0x8007007E)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_visdetailedcs(ExceptionDelegate applicationDelegate, ExceptionDelegate arithmeticDelegate, ExceptionDelegate divideByZeroDelegate, ExceptionDelegate indexOutOfRangeDelegate, ExceptionDelegate invalidCastDelegate, ExceptionDelegate invalidOperationDelegate, ExceptionDelegate ioDelegate, ExceptionDelegate nullReferenceDelegate, ExceptionDelegate outOfMemoryDelegate, ExceptionDelegate overflowDelegate, ExceptionDelegate systemExceptionDelegate)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..ctor()
+   at visdetailed.visdetailedcsPINVOKE..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.new_RegionNameDataMap__SWIG_0()
+   at PBCameraPlugin.PreScanPBCameraPlugin.loadRegionAssignmentForObject(String experimentDirectory, IWorldObject worldObject, List`1& sharedObjects)
+   at PBCameraPlugin.PreScanPBCameraPlugin.InitMaterialAssignmentModel(String experimentDirectory)
+   at PBCameraPlugin.PreScanPBCameraPlugin.ExperimentOpened(String experimentDirectory)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at PreScan.PluginFrameworkImplementation.PreScanAPI.????????????????????????????????????????(Delegate , String , Object[] )
+2019-01-09 10:23:45,588 [Main PreScanGui Thread] WARN  (0) - LoadCurrentExperimentIntoViewer: VisViewer is not available.
+2019-01-09 10:23:45,589 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightACC' state changed to Opened
+2019-01-09 10:23:49,522 [Main PreScanGui Thread] WARN  (0) - LoadCurrentExperimentIntoViewer: VisViewer is not available.
+2019-01-09 10:23:50,023 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightACC' state changed to Saved
+2019-01-09 12:45:05,970 [Main PreScanGui Thread] ERROR (0) - Exception occured while handling ExperimentOpened event in plugin 'PBCameraPlugin': The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception. ---> System.TypeInitializationException: The type initializer for 'SWIGExceptionHelper' threw an exception. ---> System.DllNotFoundException: Unable to load DLL 'visdetailedcs': 找不到指定的模块。 (Exception from HRESULT: 0x8007007E)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_visdetailedcs(ExceptionDelegate applicationDelegate, ExceptionDelegate arithmeticDelegate, ExceptionDelegate divideByZeroDelegate, ExceptionDelegate indexOutOfRangeDelegate, ExceptionDelegate invalidCastDelegate, ExceptionDelegate invalidOperationDelegate, ExceptionDelegate ioDelegate, ExceptionDelegate nullReferenceDelegate, ExceptionDelegate outOfMemoryDelegate, ExceptionDelegate overflowDelegate, ExceptionDelegate systemExceptionDelegate)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..ctor()
+   at visdetailed.visdetailedcsPINVOKE..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.new_RegionNameDataMap__SWIG_0()
+   at PBCameraPlugin.PreScanPBCameraPlugin.loadRegionAssignmentForObject(String experimentDirectory, IWorldObject worldObject, List`1& sharedObjects)
+   at PBCameraPlugin.PreScanPBCameraPlugin.InitMaterialAssignmentModel(String experimentDirectory)
+   at PBCameraPlugin.PreScanPBCameraPlugin.ExperimentOpened(String experimentDirectory)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at PreScan.PluginFrameworkImplementation.PreScanAPI.????????????????????????????????????????(Delegate , String , Object[] )
+2019-01-09 12:45:06,999 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer is available.
+2019-01-09 12:45:07,000 [Main PreScanGui Thread] INFO  (0) - UseVisViewer: successful.
+2019-01-09 12:45:07,000 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer available, and claimed.
+2019-01-09 12:45:07,805 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: successful.
+2019-01-09 12:45:07,805 [Main PreScanGui Thread] INFO  (0) - UnUseVisViewer: successful.
+2019-01-09 12:45:07,806 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightACC' state changed to Opened
+2019-01-09 12:45:11,545 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer is available.
+2019-01-09 12:45:11,546 [Main PreScanGui Thread] INFO  (0) - UseVisViewer: successful.
+2019-01-09 12:45:11,546 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer available, and claimed.
+2019-01-09 12:45:12,211 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: successful.
+2019-01-09 12:45:12,211 [Main PreScanGui Thread] INFO  (0) - UnUseVisViewer: successful.
+2019-01-09 12:45:12,540 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightACC' state changed to Saved
