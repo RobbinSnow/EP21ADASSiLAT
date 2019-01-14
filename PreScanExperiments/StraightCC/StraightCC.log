@@ -2685,3 +2685,192 @@ System.Reflection.TargetInvocationException: Exception has been thrown by the ta
 2019-01-09 12:48:06,992 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: successful.
 2019-01-09 12:48:06,992 [Main PreScanGui Thread] INFO  (0) - UnUseVisViewer: successful.
 2019-01-09 12:48:07,200 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightCC' state changed to Saved
+2019-01-10 11:02:21,286 [Main PreScanGui Thread] ERROR (0) - Exception occured while handling ExperimentOpened event in plugin 'PBCameraPlugin': The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception. ---> System.TypeInitializationException: The type initializer for 'SWIGExceptionHelper' threw an exception. ---> System.DllNotFoundException: Unable to load DLL 'visdetailedcs': 找不到指定的模块。 (Exception from HRESULT: 0x8007007E)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_visdetailedcs(ExceptionDelegate applicationDelegate, ExceptionDelegate arithmeticDelegate, ExceptionDelegate divideByZeroDelegate, ExceptionDelegate indexOutOfRangeDelegate, ExceptionDelegate invalidCastDelegate, ExceptionDelegate invalidOperationDelegate, ExceptionDelegate ioDelegate, ExceptionDelegate nullReferenceDelegate, ExceptionDelegate outOfMemoryDelegate, ExceptionDelegate overflowDelegate, ExceptionDelegate systemExceptionDelegate)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..ctor()
+   at visdetailed.visdetailedcsPINVOKE..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.new_RegionNameDataMap__SWIG_0()
+   at PBCameraPlugin.PreScanPBCameraPlugin.loadRegionAssignmentForObject(String experimentDirectory, IWorldObject worldObject, List`1& sharedObjects)
+   at PBCameraPlugin.PreScanPBCameraPlugin.InitMaterialAssignmentModel(String experimentDirectory)
+   at PBCameraPlugin.PreScanPBCameraPlugin.ExperimentOpened(String experimentDirectory)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at PreScan.PluginFrameworkImplementation.PreScanAPI.????????????????????????????????????????(Delegate , String , Object[] )
+2019-01-10 11:02:22,100 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer is available.
+2019-01-10 11:02:22,101 [Main PreScanGui Thread] INFO  (0) - UseVisViewer: successful.
+2019-01-10 11:02:22,101 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer available, and claimed.
+2019-01-10 11:02:22,102 [Main PreScanGui Thread] WARN  (0) - LoadCurrentExperimentIntoViewer: trying to load experiment, but .vwo does not exist, or experiment was not built.
+2019-01-10 11:02:22,154 [Main PreScanGui Thread] INFO  (0) - UnUseVisViewer: successful.
+2019-01-10 11:02:22,154 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightCC' state changed to Opened
+2019-01-10 11:02:22,304 [Main PreScanGui Thread] WARN  (0) - MessageBox suppressed. 
+	Caption: Experiment not built
+	Message: An experiment has to be built before it can be shown in the 3D viewer.
+	Result: OK
+2019-01-10 11:02:23,361 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 11:02:23,362 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 11:02:23,362 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 11:02:23,363 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 11:02:23,363 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 11:02:23,363 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 11:02:23,364 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 11:02:23,364 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 11:02:27,707 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer is available.
+2019-01-10 11:02:27,708 [Main PreScanGui Thread] INFO  (0) - UseVisViewer: successful.
+2019-01-10 11:02:27,708 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer available, and claimed.
+2019-01-10 11:02:41,137 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: successful.
+2019-01-10 11:02:41,137 [Main PreScanGui Thread] INFO  (0) - UnUseVisViewer: successful.
+2019-01-10 11:02:42,148 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightCC' state changed to Saved
+2019-01-10 11:14:16,532 [Main PreScanGui Thread] ERROR (0) - Exception occured while handling ExperimentOpened event in plugin 'PBCameraPlugin': The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception. ---> System.TypeInitializationException: The type initializer for 'SWIGExceptionHelper' threw an exception. ---> System.DllNotFoundException: Unable to load DLL 'visdetailedcs': 找不到指定的模块。 (Exception from HRESULT: 0x8007007E)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_visdetailedcs(ExceptionDelegate applicationDelegate, ExceptionDelegate arithmeticDelegate, ExceptionDelegate divideByZeroDelegate, ExceptionDelegate indexOutOfRangeDelegate, ExceptionDelegate invalidCastDelegate, ExceptionDelegate invalidOperationDelegate, ExceptionDelegate ioDelegate, ExceptionDelegate nullReferenceDelegate, ExceptionDelegate outOfMemoryDelegate, ExceptionDelegate overflowDelegate, ExceptionDelegate systemExceptionDelegate)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..ctor()
+   at visdetailed.visdetailedcsPINVOKE..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.new_RegionNameDataMap__SWIG_0()
+   at PBCameraPlugin.PreScanPBCameraPlugin.loadRegionAssignmentForObject(String experimentDirectory, IWorldObject worldObject, List`1& sharedObjects)
+   at PBCameraPlugin.PreScanPBCameraPlugin.InitMaterialAssignmentModel(String experimentDirectory)
+   at PBCameraPlugin.PreScanPBCameraPlugin.ExperimentOpened(String experimentDirectory)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at PreScan.PluginFrameworkImplementation.PreScanAPI.????????????????????????????????????????(Delegate , String , Object[] )
+2019-01-10 11:14:17,292 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer is available.
+2019-01-10 11:14:17,293 [Main PreScanGui Thread] INFO  (0) - UseVisViewer: successful.
+2019-01-10 11:14:17,293 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer available, and claimed.
+2019-01-10 11:14:23,801 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: successful.
+2019-01-10 11:14:23,801 [Main PreScanGui Thread] INFO  (0) - UnUseVisViewer: successful.
+2019-01-10 11:14:23,802 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightCC' state changed to Opened
+2019-01-10 11:14:24,977 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 11:14:24,978 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 11:14:24,978 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 11:14:24,979 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 11:14:24,979 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 11:14:24,979 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 11:14:24,980 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 11:14:24,980 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 11:14:29,246 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer is available.
+2019-01-10 11:14:29,247 [Main PreScanGui Thread] INFO  (0) - UseVisViewer: successful.
+2019-01-10 11:14:29,247 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer available, and claimed.
+2019-01-10 11:14:29,354 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: successful.
+2019-01-10 11:14:29,354 [Main PreScanGui Thread] INFO  (0) - UnUseVisViewer: successful.
+2019-01-10 11:14:30,204 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightCC' state changed to Saved
+2019-01-10 11:16:26,707 [Main PreScanGui Thread] ERROR (0) - Exception occured while handling ExperimentOpened event in plugin 'PBCameraPlugin': The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception. ---> System.TypeInitializationException: The type initializer for 'SWIGExceptionHelper' threw an exception. ---> System.DllNotFoundException: Unable to load DLL 'visdetailedcs': 找不到指定的模块。 (Exception from HRESULT: 0x8007007E)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_visdetailedcs(ExceptionDelegate applicationDelegate, ExceptionDelegate arithmeticDelegate, ExceptionDelegate divideByZeroDelegate, ExceptionDelegate indexOutOfRangeDelegate, ExceptionDelegate invalidCastDelegate, ExceptionDelegate invalidOperationDelegate, ExceptionDelegate ioDelegate, ExceptionDelegate nullReferenceDelegate, ExceptionDelegate outOfMemoryDelegate, ExceptionDelegate overflowDelegate, ExceptionDelegate systemExceptionDelegate)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..ctor()
+   at visdetailed.visdetailedcsPINVOKE..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.new_RegionNameDataMap__SWIG_0()
+   at PBCameraPlugin.PreScanPBCameraPlugin.loadRegionAssignmentForObject(String experimentDirectory, IWorldObject worldObject, List`1& sharedObjects)
+   at PBCameraPlugin.PreScanPBCameraPlugin.InitMaterialAssignmentModel(String experimentDirectory)
+   at PBCameraPlugin.PreScanPBCameraPlugin.ExperimentOpened(String experimentDirectory)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at PreScan.PluginFrameworkImplementation.PreScanAPI.????????????????????????????????????????(Delegate , String , Object[] )
+2019-01-10 11:16:27,482 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer is available.
+2019-01-10 11:16:27,483 [Main PreScanGui Thread] INFO  (0) - UseVisViewer: successful.
+2019-01-10 11:16:27,483 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer available, and claimed.
+2019-01-10 11:16:27,590 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: successful.
+2019-01-10 11:16:27,590 [Main PreScanGui Thread] INFO  (0) - UnUseVisViewer: successful.
+2019-01-10 11:16:27,591 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightCC' state changed to Opened
+2019-01-10 11:16:28,763 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 11:16:28,763 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 11:16:28,764 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 11:16:28,764 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 11:16:28,765 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 11:16:28,765 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 11:16:28,765 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 11:16:28,766 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 11:16:33,014 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer is available.
+2019-01-10 11:16:33,014 [Main PreScanGui Thread] INFO  (0) - UseVisViewer: successful.
+2019-01-10 11:16:33,014 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer available, and claimed.
+2019-01-10 11:16:33,130 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: successful.
+2019-01-10 11:16:33,131 [Main PreScanGui Thread] INFO  (0) - UnUseVisViewer: successful.
+2019-01-10 11:16:34,030 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightCC' state changed to Saved
+2019-01-10 14:28:36,546 [Main PreScanGui Thread] ERROR (0) - Exception occured while handling ExperimentOpened event in plugin 'PBCameraPlugin': The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception. ---> System.TypeInitializationException: The type initializer for 'SWIGExceptionHelper' threw an exception. ---> System.DllNotFoundException: Unable to load DLL 'visdetailedcs': 找不到指定的模块。 (Exception from HRESULT: 0x8007007E)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_visdetailedcs(ExceptionDelegate applicationDelegate, ExceptionDelegate arithmeticDelegate, ExceptionDelegate divideByZeroDelegate, ExceptionDelegate indexOutOfRangeDelegate, ExceptionDelegate invalidCastDelegate, ExceptionDelegate invalidOperationDelegate, ExceptionDelegate ioDelegate, ExceptionDelegate nullReferenceDelegate, ExceptionDelegate outOfMemoryDelegate, ExceptionDelegate overflowDelegate, ExceptionDelegate systemExceptionDelegate)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..ctor()
+   at visdetailed.visdetailedcsPINVOKE..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.new_RegionNameDataMap__SWIG_0()
+   at PBCameraPlugin.PreScanPBCameraPlugin.loadRegionAssignmentForObject(String experimentDirectory, IWorldObject worldObject, List`1& sharedObjects)
+   at PBCameraPlugin.PreScanPBCameraPlugin.InitMaterialAssignmentModel(String experimentDirectory)
+   at PBCameraPlugin.PreScanPBCameraPlugin.ExperimentOpened(String experimentDirectory)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at PreScan.PluginFrameworkImplementation.PreScanAPI.????????????????????????????????????????(Delegate , String , Object[] )
+2019-01-10 14:28:37,304 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer is available.
+2019-01-10 14:28:37,305 [Main PreScanGui Thread] INFO  (0) - UseVisViewer: successful.
+2019-01-10 14:28:37,305 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer available, and claimed.
+2019-01-10 14:28:44,466 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: successful.
+2019-01-10 14:28:44,467 [Main PreScanGui Thread] INFO  (0) - UnUseVisViewer: successful.
+2019-01-10 14:28:44,468 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightCC' state changed to Opened
+2019-01-10 14:28:45,662 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 14:28:45,663 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 14:28:45,663 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 14:28:45,663 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 14:28:45,664 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 14:28:45,664 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 14:28:45,664 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 14:28:45,669 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 14:28:50,020 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer is available.
+2019-01-10 14:28:50,021 [Main PreScanGui Thread] INFO  (0) - UseVisViewer: successful.
+2019-01-10 14:28:50,021 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer available, and claimed.
+2019-01-10 14:28:50,126 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: successful.
+2019-01-10 14:28:50,127 [Main PreScanGui Thread] INFO  (0) - UnUseVisViewer: successful.
+2019-01-10 14:28:51,102 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightCC' state changed to Saved
+2019-01-10 14:30:50,745 [Main PreScanGui Thread] ERROR (0) - Exception occured while handling ExperimentOpened event in plugin 'PBCameraPlugin': The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'visdetailed.visdetailedcsPINVOKE' threw an exception. ---> System.TypeInitializationException: The type initializer for 'SWIGExceptionHelper' threw an exception. ---> System.DllNotFoundException: Unable to load DLL 'visdetailedcs': 找不到指定的模块。 (Exception from HRESULT: 0x8007007E)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_visdetailedcs(ExceptionDelegate applicationDelegate, ExceptionDelegate arithmeticDelegate, ExceptionDelegate divideByZeroDelegate, ExceptionDelegate indexOutOfRangeDelegate, ExceptionDelegate invalidCastDelegate, ExceptionDelegate invalidOperationDelegate, ExceptionDelegate ioDelegate, ExceptionDelegate nullReferenceDelegate, ExceptionDelegate outOfMemoryDelegate, ExceptionDelegate overflowDelegate, ExceptionDelegate systemExceptionDelegate)
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.SWIGExceptionHelper..ctor()
+   at visdetailed.visdetailedcsPINVOKE..cctor()
+   --- End of inner exception stack trace ---
+   at visdetailed.visdetailedcsPINVOKE.new_RegionNameDataMap__SWIG_0()
+   at PBCameraPlugin.PreScanPBCameraPlugin.loadRegionAssignmentForObject(String experimentDirectory, IWorldObject worldObject, List`1& sharedObjects)
+   at PBCameraPlugin.PreScanPBCameraPlugin.InitMaterialAssignmentModel(String experimentDirectory)
+   at PBCameraPlugin.PreScanPBCameraPlugin.ExperimentOpened(String experimentDirectory)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at PreScan.PluginFrameworkImplementation.PreScanAPI.????????????????????????????????????????(Delegate , String , Object[] )
+2019-01-10 14:30:51,480 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer is available.
+2019-01-10 14:30:51,480 [Main PreScanGui Thread] INFO  (0) - UseVisViewer: successful.
+2019-01-10 14:30:51,481 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer available, and claimed.
+2019-01-10 14:30:51,578 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: successful.
+2019-01-10 14:30:51,578 [Main PreScanGui Thread] INFO  (0) - UnUseVisViewer: successful.
+2019-01-10 14:30:51,579 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightCC' state changed to Opened
+2019-01-10 14:30:52,760 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 14:30:52,760 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 14:30:52,761 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 14:30:52,761 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 14:30:52,762 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 14:30:52,762 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 14:30:52,762 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_1 has no valid Display name
+2019-01-10 14:30:52,763 [Main PreScanGui Thread] ERROR (0) - Actuator VisuCasingLights_2 has no valid Display name
+2019-01-10 14:30:57,039 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer is available.
+2019-01-10 14:30:57,039 [Main PreScanGui Thread] INFO  (0) - UseVisViewer: successful.
+2019-01-10 14:30:57,039 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: VisViewer available, and claimed.
+2019-01-10 14:30:57,136 [Main PreScanGui Thread] INFO  (0) - LoadCurrentExperimentIntoViewer: successful.
+2019-01-10 14:30:57,137 [Main PreScanGui Thread] INFO  (0) - UnUseVisViewer: successful.
+2019-01-10 14:30:57,989 [Main PreScanGui Thread] INFO  (0) - Experiment 'StraightCC' state changed to Saved
