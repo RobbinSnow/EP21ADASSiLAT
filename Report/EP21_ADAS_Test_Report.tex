@@ -1,0 +1,207 @@
+\documentclass[12pt]{report} 
+\title{EP21 ADAS Test Report} 
+\author{Robbin Snow} 
+\date{\today} 
+\usepackage[top=60pt,headheight=30pt,headsep=15pt,bottom=45pt,left=45pt,right=45pt]{geometry} 
+\usepackage{float} 
+\usepackage[english]{babel} 
+\usepackage[utf8]{inputenc} 
+\usepackage{fancyhdr} 
+\usepackage{graphicx} 
+\usepackage{subfigure} 
+\usepackage[nottoc,notlot,notlof]{tocbibind}  
+\usepackage{cite} 
+\usepackage{tikz}  
+\usepackage{color} 
+\usepackage[toc,page]{appendix} 
+\usepackage[ nonumberlist,acronym,toc,section]{glossaries}  
+\usepackage{CJK} 
+%\usepackage[labelformat=empty]{caption} 
+\renewcommand{\thesubfigure}{\thefigure.\arabic{subfigure}} 
+%\renewcommand\thesubfigure{\alphalph{\value{subfigure}}} 
+\usepackage[export]{adjustbox} 
+\usepackage[T1]{fontenc} 
+\usepackage{titlesec, blindtext, color} 
+\definecolor{gray75}{gray}{0.75} 
+\newcommand{\hsp}{\hspace{20pt}} 
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries} 
+\usepackage[ 
+colorlinks=true, 
+urlcolor=pdfurlcolor, 
+filecolor=pdffilecolor, 
+linkcolor=black, 
+raiselinks=true, 
+breaklinks, 
+backref=page, 
+pagebackref=false, 
+verbose, 
+hyperindex=true, 
+linktocpage=true, 
+hyperfootnotes=false, 
+bookmarks=true, 
+bookmarksopen=true, 
+bookmarksopenlevel=\maxdimen, 
+bookmarksnumbered=true, 
+bookmarkstype=toc, 
+plainpages=false, 
+pageanchor=true, 
+pdftitle=EP21 ADAS Test Report, 
+pdfauthor=Robbin Snow, 
+pdfcreator={MATLAB}, 
+pdfstartview=Fit, 
+pdfpagemode=UseOutlines, 
+pdfpagelabels=true, 
+pdfpagelayout=TwoPageRight, 
+]{hyperref} 
+\pagestyle{fancy} 
+\fancyhf{} 
+\rhead{EP21 ADAS HIL Test} 
+\lhead{\includegraphics[scale=0.1]{SAICLogo}}  
+\rfoot{Page \thepage} 
+ 
+%%%%%%% OPTIONAL HEADER %%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\begin{document} 
+%\maketitle 
+\begin{titlepage} 
+\begin{figure}[h] 
+\includegraphics[height=2cm]{SAICLogo}\hfill 
+\includegraphics[height=2cm]{RMGLogo}\\ 
+\vskip 3cm 
+\centering\Huge{EP21 ADAS Test Report}\\ 
+\vskip 0.5cm 
+\centering\Huge{\today} 
+\vskip 4cm 
+\includegraphics[width=0.55\linewidth]{CHLogo} 
+\end{figure} 
+\end{titlepage} 
+\centerline{\Large{\textbf{Result List}}} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{30bp}\=blank\hspace*{30bp}\=testcasename\hspace*{200bp} \=result\kill 
+\>\textit{\underline{\ref{w1}}} \>ACC001StraightCC0PctSpd30\>Pass\\ 
+\>\textit{\underline{\ref{w2}}} \>ACC002StraightCC0PctSpd90\>\textcolor[rgb]{1,0,0}{Fail}\\ 
+\>\textit{\underline{\ref{w3}}} \>AEB001StraightCC0PctSpd30\>Pass\\ 
+\>\textit{\underline{\ref{w4}}} \>AEB001StraightCC0PctSpd90\>\textcolor[rgb]{1,0,0}{Fail}\\ 
+\>\textit{\underline{\ref{w5}}} \>LKA001StraightCC0PctSpd30\>Pass\\ 
+\>\textit{\underline{\ref{w6}}} \>LKA001StraightCC0PctSpd90\>\textcolor[rgb]{1,0,0}{Fail}\\ 
+\end{tabbing} 
+\end{CJK} 
+\chapter{ACC} 
+\newpage 
+%\begin{center} 
+\section{\label{w1}ACC001StraightCC0PctSpd30} 
+%\end{center} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>ACC001StraightCC0PctSpd30\\ 
+ \>Result:\>Pass\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>23-Jan-2019\\ 
+\end{tabbing} 
+\end{CJK} 
+\begin{figure}[ht]  
+\centering 
+\begin{subfigure}{\includegraphics[width=0.95\linewidth]{ACCfig10001.eps}} 
+\end{subfigure} 
+\end{figure} 
+\newpage 
+%\begin{center} 
+\section{\label{w2}ACC002StraightCC0PctSpd90} 
+%\end{center} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>ACC002StraightCC0PctSpd90\\ 
+ \>Result:\>Fail\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>23-Jan-2019\\ 
+\end{tabbing} 
+\end{CJK} 
+\begin{figure}[ht]  
+\centering 
+\begin{subfigure}{\includegraphics[width=0.95\linewidth]{ACCfig10002.eps}} 
+\end{subfigure} 
+\end{figure} 
+\chapter{AEB} 
+\newpage 
+%\begin{center} 
+\section{\label{w3}AEB001StraightCC0PctSpd30} 
+%\end{center} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>AEB001StraightCC0PctSpd30\\ 
+ \>Result:\>Pass\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>23-Jan-2019\\ 
+\end{tabbing} 
+\end{CJK} 
+\begin{figure}[ht]  
+\centering 
+\begin{subfigure}{\includegraphics[width=0.95\linewidth]{AEBfig10001.eps}} 
+\end{subfigure} 
+\end{figure} 
+\newpage 
+%\begin{center} 
+\section{\label{w4}AEB002StraightCC0PctSpd90} 
+%\end{center} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>AEB002StraightCC0PctSpd90\\ 
+ \>Result:\>Fail\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>23-Jan-2019\\ 
+\end{tabbing} 
+\end{CJK} 
+\begin{figure}[ht]  
+\centering 
+\begin{subfigure}{\includegraphics[width=0.95\linewidth]{AEBfig10002.eps}} 
+\end{subfigure} 
+\end{figure} 
+\chapter{LKA} 
+\newpage 
+%\begin{center} 
+\section{\label{w5}LKA001StraightCC0PctSpd30} 
+%\end{center} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>LKA001StraightCC0PctSpd30\\ 
+ \>Result:\>Pass\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>23-Jan-2019\\ 
+\end{tabbing} 
+\end{CJK} 
+\begin{figure}[ht]  
+\centering 
+\begin{subfigure}{\includegraphics[width=0.95\linewidth]{LKAfig10001.eps}} 
+\end{subfigure} 
+\end{figure} 
+\newpage 
+%\begin{center} 
+\section{\label{w6}LKA002StraightCC0PctSpd90} 
+%\end{center} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>LKA002StraightCC0PctSpd90\\ 
+ \>Result:\>Fail\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>23-Jan-2019\\ 
+\end{tabbing} 
+\end{CJK} 
+\begin{figure}[ht]  
+\centering 
+\begin{subfigure}{\includegraphics[width=0.95\linewidth]{LKAfig10002.eps}} 
+\end{subfigure} 
+\end{figure} 
+\end{document} 
