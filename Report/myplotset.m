@@ -28,7 +28,7 @@ xlim(myXlim1);
 ylim(myYlim1);
 set(gca,'FontSize', 6);
 set(gca,'YTick',myTick1);
-legend(mylegend,'fontsize',6,'Position',mylegendpos);
+legend(mylegend,'fontsize',4,'Position',mylegendpos);
 legend('boxoff');
 grid on;
 

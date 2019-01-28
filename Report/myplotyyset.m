@@ -52,7 +52,7 @@ end
 % leghandle=legend(mylegend,'fontsize',6,'Location','northeast');
 % get(leghandle,'position')
 % set(zz,'position',mylegendpos);
-legend(mylegend,'fontsize',6,'position',mylegendpos);
+legend(mylegend,'fontsize',4,'position',mylegendpos);
 legend('boxoff');
 grid on;
 % legend('position',[0.25,0.93,0.2,0.05]);

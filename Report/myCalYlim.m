@@ -1,7 +1,7 @@
 function [myYlim,myTick]=myCalYlim(channels)
 for i=1:size(channels,2)
-    ymax(i)=max(channels(:,[i]));
-    ymin(i)=min(channels(:,[i]));
+    ymax(i)=max(channels((21:end),[i]));
+    ymin(i)=min(channels((21:end),[i]));
 end
 allmax = double(max(ymax));
 allmin = double(min(ymin));

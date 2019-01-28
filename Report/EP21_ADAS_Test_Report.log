@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.3)  23 JAN 2019 08:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.3)  25 JAN 2019 15:34
 entering extended mode
 **./EP21_ADAS_Test_Report.tex
 (EP21_ADAS_Test_Report.tex
@@ -769,58 +769,7 @@ Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
  (E:\MikTeX29\tex\latex\base\t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) (E:\MikTeX29\tex\latex\oberdiek\epstopdf.sty
-Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
-
-(E:\MikTeX29\tex\latex\oberdiek\epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(E:\MikTeX29\tex\generic\oberdiek\infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(E:\MikTeX29\tex\latex\oberdiek\grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(E:\MikTeX29\tex\generic\oberdiek\kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(E:\MikTeX29\tex\generic\oberdiek\ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(E:\MikTeX29\tex\latex\oberdiek\kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(E:\MikTeX29\tex\generic\oberdiek\kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(E:\MikTeX29\tex\generic\oberdiek\etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(E:\MikTeX29\tex\generic\oberdiek\ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-(E:\MikTeX29\tex\generic\oberdiek\pdftexcmds.sty
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-))
-(E:\MikTeX29\tex\latex\titlesec\titlesec.sty
+)) (E:\MikTeX29\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box49
 \beforetitleunit=\skip74
@@ -867,16 +816,26 @@ Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 (E:\MikTeX29\tex\generic\oberdiek\hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package hobsub Info: Skipping package `etexcmds' (already loaded).
-Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
-Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
-Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
@@ -894,6 +853,9 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
 (E:\MikTeX29\tex\latex\oberdiek\auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(E:\MikTeX29\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen258
 \Hy@linkcounter=\count181
@@ -969,84 +931,84 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 ) (EP21_ADAS_Test_Report.aux)
 \openout1 = `EP21_ADAS_Test_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1095,9 +1057,22 @@ LaTeX Font Info:    ... okay on input line 65.
 \MPnumerator=\count194
 \makeMPintoPDFobject=\count195
 \everyMPtoPDFconversion=\toks50
-) ABD: EveryShipout initializing macros
+) (E:\MikTeX29\tex\latex\oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(E:\MikTeX29\tex\latex\oberdiek\grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring ON on input line 65.
+Package hyperref Info: Link coloring ON on input line 64.
 
 (E:\MikTeX29\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1107,36 +1082,36 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count196
 )
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
-LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Info: Redefining \ref on input line 64.
+LaTeX Info: Redefining \pageref on input line 64.
+LaTeX Info: Redefining \nameref on input line 64.
 
 (EP21_ADAS_Test_Report.out) (EP21_ADAS_Test_Report.out)
 \@outlinefile=\write4
 \openout4 = `EP21_ADAS_Test_Report.out'.
 
-Package hyperref Info: Anchor `Doc-Start' on input line 65.
+Package hyperref Info: Anchor `Doc-Start' on input line 64.
 <SAICLogo.png, id=42, 589.0005pt x 201.1515pt>
 File: SAICLogo.png Graphic file (type png)
 <use SAICLogo.png>
-Package pdftex.def Info: SAICLogo.png  used on input line 69.
+Package pdftex.def Info: SAICLogo.png  used on input line 68.
 (pdftex.def)             Requested size: 166.62662pt x 56.9055pt.
 <RMGLogo.png, id=44, 1003.75pt x 501.875pt>
 File: RMGLogo.png Graphic file (type png)
 <use RMGLogo.png>
-Package pdftex.def Info: RMGLogo.png  used on input line 70.
+Package pdftex.def Info: RMGLogo.png  used on input line 69.
 (pdftex.def)             Requested size: 113.79767pt x 56.9055pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
 
  []
 
 <CHLogo.jpg, id=45, 768.471pt x 497.2176pt>
 File: CHLogo.jpg Graphic file (type jpg)
 <use CHLogo.jpg>
-Package pdftex.def Info: CHLogo.jpg  used on input line 76.
+Package pdftex.def Info: CHLogo.jpg  used on input line 75.
 (pdftex.def)             Requested size: 288.36385pt x 186.57753pt.
-Package hyperref Info: Anchor `page.1' on input line 78.
+Package hyperref Info: Anchor `page.1' on input line 77.
 [1
 
 {C:/Users/SAIC/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./SAICLogo.p
@@ -1149,290 +1124,554 @@ File: extended.enc 2015/04/18 4.8.4
 (E:\MikTeX29\tex\latex\cjk\extended.chr
 File: extended.chr 2015/04/18 4.8.4
 )
-Package hyperref Info: Reference (link) `section.1.1' on input line 83.
-Package hyperref Info: Reference (link) `section.1.2' on input line 84.
-Package hyperref Info: Reference (link) `section.2.1' on input line 85.
-Package hyperref Info: Reference (link) `section.2.2' on input line 86.
-Package hyperref Info: Reference (link) `section.3.1' on input line 87.
-Package hyperref Info: Reference (link) `section.3.2' on input line 88.
+Package hyperref Info: Reference (link) `section.1.1' on input line 82.
+Package hyperref Info: Reference (link) `section.1.2' on input line 83.
+Package hyperref Info: Reference (link) `section.1.3' on input line 84.
+Package hyperref Info: Reference (link) `section.1.4' on input line 85.
+Package hyperref Info: Reference (link) `section.1.5' on input line 86.
+Package hyperref Info: Reference (link) `section.1.6' on input line 87.
+
+
+LaTeX Warning: Reference `w7' on page 1 undefined on input line 88.
+
+
+LaTeX Warning: Reference `w8' on page 1 undefined on input line 89.
+
+
+LaTeX Warning: Reference `w9' on page 1 undefined on input line 90.
+
+
+LaTeX Warning: Reference `w10' on page 1 undefined on input line 91.
+
+
+LaTeX Warning: Reference `w11' on page 1 undefined on input line 92.
+
 File: SAICLogo.png Graphic file (type png)
 <use SAICLogo.png>
-Package pdftex.def Info: SAICLogo.png  used on input line 91.
+Package pdftex.def Info: SAICLogo.png  used on input line 95.
 (pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
-Package hyperref Info: Anchor `page.1' on input line 91.
+Package hyperref Info: Anchor `page.1' on input line 95.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.91 \chapter
+l.95 \chapter
              {ACC} [1
-Package `hyperref' Info: End of reference (link) `section.1.1', line 83.
-Package `hyperref' Info: End of reference (link) `section.1.2', line 84.
-Package `hyperref' Info: End of reference (link) `section.2.1', line 85.
-Package `hyperref' Info: End of reference (link) `section.2.2', line 86.
-Package `hyperref' Info: End of reference (link) `section.3.1', line 87.
-Package `hyperref' Info: End of reference (link) `section.3.2', line 88.
+Package `hyperref' Info: End of reference (link) `section.1.1', line 82.
+Package `hyperref' Info: End of reference (link) `section.1.2', line 83.
+Package `hyperref' Info: End of reference (link) `section.1.3', line 84.
+Package `hyperref' Info: End of reference (link) `section.1.4', line 85.
+Package `hyperref' Info: End of reference (link) `section.1.5', line 86.
+Package `hyperref' Info: End of reference (link) `section.1.6', line 87.
 ]
-Package hyperref Info: Anchor `chapter.1' on input line 91.
+Package hyperref Info: Anchor `chapter.1' on input line 95.
 
 Chapter 1.
-Package hyperref Info: bookmark on input line 91:
+Package hyperref Info: bookmark on input line 95:
 (hyperref)             thecounter {1}
 (hyperref)             text {\protect \numberline {\thechapter }ACC}
 (hyperref)             reference {chapter.1}
 (hyperref)             toclevel {0}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.2' on input line 93.
+Package hyperref Info: Anchor `page.2' on input line 96.
 [2
 
 ]
-Package hyperref Info: Anchor `section.1.1' on input line 95.
-Package hyperref Info: bookmark on input line 95:
+Package hyperref Info: Anchor `section.1.1' on input line 98.
+Package hyperref Info: bookmark on input line 98:
 (hyperref)             thecounter {1.1}
-(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w1}ACC001Straig
-htCC0PctSpd30}
+(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w1}ACCStraight0
+01SlopeAngle0pctSpd30}
 (hyperref)             reference {section.1.1}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `subfigure.1.1.1' on input line 109.
-Package epstopdf Info: Source file: <fig10001.eps>
-(epstopdf)                    date: 2019-01-22 09:10:32
-(epstopdf)                    size: 652433 bytes
-(epstopdf)             Output file: <fig10001-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig10001-eps-converted-to.p
-df fig10001.eps>
-(epstopdf)             \includegraphics on input line 109.
-runsystem(epstopdf --outfile=fig10001-eps-converted-to.pdf fig10001.eps)...exec
-uted (allowed).
+Package hyperref Info: Anchor `subfigure.1.1.1' on input line 112.
+Package epstopdf Info: Source file: <ACCfig10001.eps>
+(epstopdf)                    date: 2019-01-25 15:34:10
+(epstopdf)                    size: 326803 bytes
+(epstopdf)             Output file: <ACCfig10001-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 14:39:55
+(epstopdf)                    size: 38176 bytes
+(epstopdf)             Command: <epstopdf --outfile=ACCfig10001-eps-converted-t
+o.pdf ACCfig10001.eps>
+(epstopdf)             \includegraphics on input line 112.
+runsystem(epstopdf --outfile=ACCfig10001-eps-converted-to.pdf ACCfig10001.eps).
+..executed (allowed).
 
-Package epstopdf Info: Result file: <fig10001-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-01-23 08:30:33
-(epstopdf)                    size: 104814 bytes.
+Package epstopdf Info: Result file: <ACCfig10001-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 15:35:01
+(epstopdf)                    size: 38176 bytes.
 
 
-pdfTeX warning: pdflatex (file ./fig10001-eps-converted-to.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<fig10001-eps-converted-to.pdf, id=70, 332.24126pt x 333.245pt>
-File: fig10001-eps-converted-to.pdf Graphic file (type pdf)
-<use fig10001-eps-converted-to.pdf>
-Package pdftex.def Info: fig10001-eps-converted-to.pdf  used on input line 109.
-
-(pdftex.def)             Requested size: 498.07864pt x 499.612pt.
+pdfTeX warning: pdflatex (file ./ACCfig10001-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<ACCfig10001-eps-converted-to.pdf, id=71, 333.245pt x 333.245pt>
+File: ACCfig10001-eps-converted-to.pdf Graphic file (type pdf)
+<use ACCfig10001-eps-converted-to.pdf>
+Package pdftex.def Info: ACCfig10001-eps-converted-to.pdf  used on input line 1
+12.
+(pdftex.def)             Requested size: 498.07864pt x 498.11195pt.
 File: SAICLogo.png Graphic file (type png)
 <use SAICLogo.png>
-Package pdftex.def Info: SAICLogo.png  used on input line 112.
+Package pdftex.def Info: SAICLogo.png  used on input line 115.
 (pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
-Package hyperref Info: Anchor `page.3' on input line 112.
-[3 <./fig10001-eps-converted-to.pdf>]
-Package hyperref Info: Anchor `section.1.2' on input line 114.
-Package hyperref Info: bookmark on input line 114:
+Package hyperref Info: Anchor `page.3' on input line 115.
+[3 <./ACCfig10001-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `section.1.2' on input line 117.
+Package hyperref Info: bookmark on input line 117:
 (hyperref)             thecounter {1.2}
-(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w2}ACC002Straig
-htCC0PctSpd90}
+(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w2}ACCStraight0
+02SlopeAngle2pctSpd30}
 (hyperref)             reference {section.1.2}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `subfigure.1.1.2' on input line 128.
-Package epstopdf Info: Source file: <fig10002.eps>
-(epstopdf)                    date: 2019-01-22 09:10:36
-(epstopdf)                    size: 652433 bytes
-(epstopdf)             Output file: <fig10002-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig10002-eps-converted-to.p
-df fig10002.eps>
-(epstopdf)             \includegraphics on input line 128.
-runsystem(epstopdf --outfile=fig10002-eps-converted-to.pdf fig10002.eps)...exec
-uted (allowed).
+Package hyperref Info: Anchor `subfigure.1.1.2' on input line 131.
+Package epstopdf Info: Source file: <ACCfig10002.eps>
+(epstopdf)                    date: 2019-01-25 15:34:15
+(epstopdf)                    size: 326794 bytes
+(epstopdf)             Output file: <ACCfig10002-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 14:39:56
+(epstopdf)                    size: 39478 bytes
+(epstopdf)             Command: <epstopdf --outfile=ACCfig10002-eps-converted-t
+o.pdf ACCfig10002.eps>
+(epstopdf)             \includegraphics on input line 131.
+runsystem(epstopdf --outfile=ACCfig10002-eps-converted-to.pdf ACCfig10002.eps).
+..executed (allowed).
 
-Package epstopdf Info: Result file: <fig10002-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-01-23 08:30:35
-(epstopdf)                    size: 104814 bytes.
+Package epstopdf Info: Result file: <ACCfig10002-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 15:35:03
+(epstopdf)                    size: 39478 bytes.
 
 
-pdfTeX warning: pdflatex (file ./fig10002-eps-converted-to.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<fig10002-eps-converted-to.pdf, id=81, 332.24126pt x 333.245pt>
-File: fig10002-eps-converted-to.pdf Graphic file (type pdf)
-<use fig10002-eps-converted-to.pdf>
-Package pdftex.def Info: fig10002-eps-converted-to.pdf  used on input line 128.
-
-(pdftex.def)             Requested size: 498.07864pt x 499.612pt.
+pdfTeX warning: pdflatex (file ./ACCfig10002-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<ACCfig10002-eps-converted-to.pdf, id=82, 333.245pt x 333.245pt>
+File: ACCfig10002-eps-converted-to.pdf Graphic file (type pdf)
+<use ACCfig10002-eps-converted-to.pdf>
+Package pdftex.def Info: ACCfig10002-eps-converted-to.pdf  used on input line 1
+31.
+(pdftex.def)             Requested size: 498.07864pt x 498.11195pt.
 File: SAICLogo.png Graphic file (type png)
 <use SAICLogo.png>
-Package pdftex.def Info: SAICLogo.png  used on input line 131.
+Package pdftex.def Info: SAICLogo.png  used on input line 134.
 (pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
-Package hyperref Info: Anchor `page.4' on input line 131.
-[4 <./fig10002-eps-converted-to.pdf>]
-Package hyperref Info: Anchor `chapter.2' on input line 131.
+Package hyperref Info: Anchor `page.4' on input line 134.
+[4 <./ACCfig10002-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `section.1.3' on input line 136.
+Package hyperref Info: bookmark on input line 136:
+(hyperref)             thecounter {1.3}
+(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w3}ACCStraight0
+03SlopeAngle5pctSpd30}
+(hyperref)             reference {section.1.3}
+(hyperref)             toclevel {1}
+(hyperref)             type {toc}.
+Package hyperref Info: Anchor `subfigure.1.1.3' on input line 150.
+Package epstopdf Info: Source file: <ACCfig10003.eps>
+(epstopdf)                    date: 2019-01-25 15:34:19
+(epstopdf)                    size: 326229 bytes
+(epstopdf)             Output file: <ACCfig10003-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 14:39:58
+(epstopdf)                    size: 39402 bytes
+(epstopdf)             Command: <epstopdf --outfile=ACCfig10003-eps-converted-t
+o.pdf ACCfig10003.eps>
+(epstopdf)             \includegraphics on input line 150.
+runsystem(epstopdf --outfile=ACCfig10003-eps-converted-to.pdf ACCfig10003.eps).
+..executed (allowed).
+
+Package epstopdf Info: Result file: <ACCfig10003-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 15:35:04
+(epstopdf)                    size: 39402 bytes.
+
+
+pdfTeX warning: pdflatex (file ./ACCfig10003-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<ACCfig10003-eps-converted-to.pdf, id=93, 333.245pt x 333.245pt>
+File: ACCfig10003-eps-converted-to.pdf Graphic file (type pdf)
+<use ACCfig10003-eps-converted-to.pdf>
+Package pdftex.def Info: ACCfig10003-eps-converted-to.pdf  used on input line 1
+50.
+(pdftex.def)             Requested size: 498.07864pt x 498.11195pt.
+File: SAICLogo.png Graphic file (type png)
+<use SAICLogo.png>
+Package pdftex.def Info: SAICLogo.png  used on input line 153.
+(pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
+Package hyperref Info: Anchor `page.5' on input line 153.
+[5 <./ACCfig10003-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `section.1.4' on input line 155.
+Package hyperref Info: bookmark on input line 155:
+(hyperref)             thecounter {1.4}
+(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w4}ACCStraightW
+ithLeadingCar001SlopeAngle0pctSpd30}
+(hyperref)             reference {section.1.4}
+(hyperref)             toclevel {1}
+(hyperref)             type {toc}.
+Package hyperref Info: Anchor `subfigure.1.1.4' on input line 169.
+Package epstopdf Info: Source file: <ACCfig10004.eps>
+(epstopdf)                    date: 2019-01-25 15:34:24
+(epstopdf)                    size: 387617 bytes
+(epstopdf)             Output file: <ACCfig10004-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 14:39:59
+(epstopdf)                    size: 42161 bytes
+(epstopdf)             Command: <epstopdf --outfile=ACCfig10004-eps-converted-t
+o.pdf ACCfig10004.eps>
+(epstopdf)             \includegraphics on input line 169.
+runsystem(epstopdf --outfile=ACCfig10004-eps-converted-to.pdf ACCfig10004.eps).
+..executed (allowed).
+
+Package epstopdf Info: Result file: <ACCfig10004-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 15:35:06
+(epstopdf)                    size: 42161 bytes.
+
+
+pdfTeX warning: pdflatex (file ./ACCfig10004-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<ACCfig10004-eps-converted-to.pdf, id=104, 330.23375pt x 333.245pt>
+File: ACCfig10004-eps-converted-to.pdf Graphic file (type pdf)
+<use ACCfig10004-eps-converted-to.pdf>
+Package pdftex.def Info: ACCfig10004-eps-converted-to.pdf  used on input line 1
+69.
+(pdftex.def)             Requested size: 498.07864pt x 502.63753pt.
+File: SAICLogo.png Graphic file (type png)
+<use SAICLogo.png>
+Package pdftex.def Info: SAICLogo.png  used on input line 172.
+(pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
+Package hyperref Info: Anchor `page.6' on input line 172.
+[6 <./ACCfig10004-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `section.1.5' on input line 174.
+Package hyperref Info: bookmark on input line 174:
+(hyperref)             thecounter {1.5}
+(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w5}ACCStraightW
+ithLeadingCar002SlopeAngle0pctSpd60}
+(hyperref)             reference {section.1.5}
+(hyperref)             toclevel {1}
+(hyperref)             type {toc}.
+Package hyperref Info: Anchor `subfigure.1.1.5' on input line 188.
+Package epstopdf Info: Source file: <ACCfig10005.eps>
+(epstopdf)                    date: 2019-01-25 15:34:28
+(epstopdf)                    size: 390235 bytes
+(epstopdf)             Output file: <ACCfig10005-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 14:40:01
+(epstopdf)                    size: 43372 bytes
+(epstopdf)             Command: <epstopdf --outfile=ACCfig10005-eps-converted-t
+o.pdf ACCfig10005.eps>
+(epstopdf)             \includegraphics on input line 188.
+runsystem(epstopdf --outfile=ACCfig10005-eps-converted-to.pdf ACCfig10005.eps).
+..executed (allowed).
+
+Package epstopdf Info: Result file: <ACCfig10005-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 15:35:07
+(epstopdf)                    size: 45227 bytes.
+
+
+pdfTeX warning: pdflatex (file ./ACCfig10005-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<ACCfig10005-eps-converted-to.pdf, id=116, 329.23pt x 333.245pt>
+File: ACCfig10005-eps-converted-to.pdf Graphic file (type pdf)
+<use ACCfig10005-eps-converted-to.pdf>
+Package pdftex.def Info: ACCfig10005-eps-converted-to.pdf  used on input line 1
+88.
+(pdftex.def)             Requested size: 498.07864pt x 504.16808pt.
+File: SAICLogo.png Graphic file (type png)
+<use SAICLogo.png>
+Package pdftex.def Info: SAICLogo.png  used on input line 191.
+(pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
+Package hyperref Info: Anchor `page.7' on input line 191.
+[7 <./ACCfig10005-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `section.1.6' on input line 193.
+Package hyperref Info: bookmark on input line 193:
+(hyperref)             thecounter {1.6}
+(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w6}ACCStraightW
+ithLeadingCar002SlopeAngle2pctSpd30}
+(hyperref)             reference {section.1.6}
+(hyperref)             toclevel {1}
+(hyperref)             type {toc}.
+Package hyperref Info: Anchor `subfigure.1.1.6' on input line 207.
+Package epstopdf Info: Source file: <ACCfig10006.eps>
+(epstopdf)                    date: 2019-01-25 15:34:33
+(epstopdf)                    size: 387317 bytes
+(epstopdf)             Output file: <ACCfig10006-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 14:40:02
+(epstopdf)                    size: 44878 bytes
+(epstopdf)             Command: <epstopdf --outfile=ACCfig10006-eps-converted-t
+o.pdf ACCfig10006.eps>
+(epstopdf)             \includegraphics on input line 207.
+runsystem(epstopdf --outfile=ACCfig10006-eps-converted-to.pdf ACCfig10006.eps).
+..executed (allowed).
+
+Package epstopdf Info: Result file: <ACCfig10006-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 15:35:09
+(epstopdf)                    size: 43372 bytes.
+
+
+pdfTeX warning: pdflatex (file ./ACCfig10006-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<ACCfig10006-eps-converted-to.pdf, id=127, 327.2225pt x 333.245pt>
+File: ACCfig10006-eps-converted-to.pdf Graphic file (type pdf)
+<use ACCfig10006-eps-converted-to.pdf>
+Package pdftex.def Info: ACCfig10006-eps-converted-to.pdf  used on input line 2
+07.
+(pdftex.def)             Requested size: 498.07864pt x 507.24953pt.
+File: SAICLogo.png Graphic file (type png)
+<use SAICLogo.png>
+Package pdftex.def Info: SAICLogo.png  used on input line 210.
+(pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
+Package hyperref Info: Anchor `page.8' on input line 210.
+[8 <./ACCfig10006-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `section.1.7' on input line 212.
+Package hyperref Info: bookmark on input line 212:
+(hyperref)             thecounter {1.7}
+(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w7}ACCStraightW
+ithLeadingCar003SlopeAngle2pctSpd30}
+(hyperref)             reference {section.1.7}
+(hyperref)             toclevel {1}
+(hyperref)             type {toc}.
+Package hyperref Info: Anchor `subfigure.1.1.7' on input line 226.
+Package epstopdf Info: Source file: <ACCfig10007.eps>
+(epstopdf)                    date: 2019-01-25 15:34:37
+(epstopdf)                    size: 387317 bytes
+(epstopdf)             Output file: <ACCfig10007-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=ACCfig10007-eps-converted-t
+o.pdf ACCfig10007.eps>
+(epstopdf)             \includegraphics on input line 226.
+runsystem(epstopdf --outfile=ACCfig10007-eps-converted-to.pdf ACCfig10007.eps).
+..executed (allowed).
+
+Package epstopdf Info: Result file: <ACCfig10007-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 15:35:11
+(epstopdf)                    size: 43372 bytes.
+
+
+pdfTeX warning: pdflatex (file ./ACCfig10007-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<ACCfig10007-eps-converted-to.pdf, id=138, 327.2225pt x 333.245pt>
+File: ACCfig10007-eps-converted-to.pdf Graphic file (type pdf)
+<use ACCfig10007-eps-converted-to.pdf>
+Package pdftex.def Info: ACCfig10007-eps-converted-to.pdf  used on input line 2
+26.
+(pdftex.def)             Requested size: 498.07864pt x 507.24953pt.
+File: SAICLogo.png Graphic file (type png)
+<use SAICLogo.png>
+Package pdftex.def Info: SAICLogo.png  used on input line 229.
+(pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
+Package hyperref Info: Anchor `page.9' on input line 229.
+[9 <./ACCfig10007-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `section.1.8' on input line 231.
+Package hyperref Info: bookmark on input line 231:
+(hyperref)             thecounter {1.8}
+(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w8}ACCStraightW
+ithLeadingCar003SlopeAngle5pctSpd30}
+(hyperref)             reference {section.1.8}
+(hyperref)             toclevel {1}
+(hyperref)             type {toc}.
+Package hyperref Info: Anchor `subfigure.1.1.8' on input line 245.
+Package epstopdf Info: Source file: <ACCfig10008.eps>
+(epstopdf)                    date: 2019-01-25 15:34:42
+(epstopdf)                    size: 385799 bytes
+(epstopdf)             Output file: <ACCfig10008-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=ACCfig10008-eps-converted-t
+o.pdf ACCfig10008.eps>
+(epstopdf)             \includegraphics on input line 245.
+runsystem(epstopdf --outfile=ACCfig10008-eps-converted-to.pdf ACCfig10008.eps).
+..executed (allowed).
+
+Package epstopdf Info: Result file: <ACCfig10008-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 15:35:12
+(epstopdf)                    size: 44878 bytes.
+
+
+pdfTeX warning: pdflatex (file ./ACCfig10008-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<ACCfig10008-eps-converted-to.pdf, id=150, 333.245pt x 333.245pt>
+File: ACCfig10008-eps-converted-to.pdf Graphic file (type pdf)
+<use ACCfig10008-eps-converted-to.pdf>
+Package pdftex.def Info: ACCfig10008-eps-converted-to.pdf  used on input line 2
+45.
+(pdftex.def)             Requested size: 498.07864pt x 498.11195pt.
+File: SAICLogo.png Graphic file (type png)
+<use SAICLogo.png>
+Package pdftex.def Info: SAICLogo.png  used on input line 248.
+(pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
+Package hyperref Info: Anchor `page.10' on input line 248.
+[10 <./ACCfig10008-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `section.1.9' on input line 250.
+Package hyperref Info: bookmark on input line 250:
+(hyperref)             thecounter {1.9}
+(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w9}ACCStraightW
+ithLeadingCar004SlopeAngle2pctSpd60}
+(hyperref)             reference {section.1.9}
+(hyperref)             toclevel {1}
+(hyperref)             type {toc}.
+Package hyperref Info: Anchor `subfigure.1.1.9' on input line 264.
+Package epstopdf Info: Source file: <ACCfig10009.eps>
+(epstopdf)                    date: 2019-01-25 15:34:46
+(epstopdf)                    size: 257238 bytes
+(epstopdf)             Output file: <ACCfig10009-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=ACCfig10009-eps-converted-t
+o.pdf ACCfig10009.eps>
+(epstopdf)             \includegraphics on input line 264.
+runsystem(epstopdf --outfile=ACCfig10009-eps-converted-to.pdf ACCfig10009.eps).
+..executed (allowed).
+
+Package epstopdf Info: Result file: <ACCfig10009-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 15:35:14
+(epstopdf)                    size: 35041 bytes.
+
+
+pdfTeX warning: pdflatex (file ./ACCfig10009-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<ACCfig10009-eps-converted-to.pdf, id=162, 330.23375pt x 333.245pt>
+File: ACCfig10009-eps-converted-to.pdf Graphic file (type pdf)
+<use ACCfig10009-eps-converted-to.pdf>
+Package pdftex.def Info: ACCfig10009-eps-converted-to.pdf  used on input line 2
+64.
+(pdftex.def)             Requested size: 498.07864pt x 502.63753pt.
+File: SAICLogo.png Graphic file (type png)
+<use SAICLogo.png>
+Package pdftex.def Info: SAICLogo.png  used on input line 267.
+(pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
+Package hyperref Info: Anchor `page.11' on input line 267.
+[11 <./ACCfig10009-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `section.1.10' on input line 269.
+Package hyperref Info: bookmark on input line 269:
+(hyperref)             thecounter {1.10}
+(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w10}ACCStraight
+WithLeadingCar005SlopeAngle5pctSpd30}
+(hyperref)             reference {section.1.10}
+(hyperref)             toclevel {1}
+(hyperref)             type {toc}.
+Package hyperref Info: Anchor `subfigure.1.1.10' on input line 283.
+Package epstopdf Info: Source file: <ACCfig10010.eps>
+(epstopdf)                    date: 2019-01-25 15:34:50
+(epstopdf)                    size: 385799 bytes
+(epstopdf)             Output file: <ACCfig10010-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=ACCfig10010-eps-converted-t
+o.pdf ACCfig10010.eps>
+(epstopdf)             \includegraphics on input line 283.
+runsystem(epstopdf --outfile=ACCfig10010-eps-converted-to.pdf ACCfig10010.eps).
+..executed (allowed).
+
+Package epstopdf Info: Result file: <ACCfig10010-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 15:35:15
+(epstopdf)                    size: 44878 bytes.
+
+
+pdfTeX warning: pdflatex (file ./ACCfig10010-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<ACCfig10010-eps-converted-to.pdf, id=174, 333.245pt x 333.245pt>
+File: ACCfig10010-eps-converted-to.pdf Graphic file (type pdf)
+<use ACCfig10010-eps-converted-to.pdf>
+Package pdftex.def Info: ACCfig10010-eps-converted-to.pdf  used on input line 2
+83.
+(pdftex.def)             Requested size: 498.07864pt x 498.11195pt.
+File: SAICLogo.png Graphic file (type png)
+<use SAICLogo.png>
+Package pdftex.def Info: SAICLogo.png  used on input line 286.
+(pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
+Package hyperref Info: Anchor `page.12' on input line 286.
+[12 <./ACCfig10010-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `section.1.11' on input line 288.
+Package hyperref Info: bookmark on input line 288:
+(hyperref)             thecounter {1.11}
+(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w11}ACCStraight
+WithLeadingCar006SlopeAngle5pctSpd60}
+(hyperref)             reference {section.1.11}
+(hyperref)             toclevel {1}
+(hyperref)             type {toc}.
+Package hyperref Info: Anchor `subfigure.1.1.11' on input line 302.
+Package epstopdf Info: Source file: <ACCfig10011.eps>
+(epstopdf)                    date: 2019-01-25 15:34:55
+(epstopdf)                    size: 261504 bytes
+(epstopdf)             Output file: <ACCfig10011-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=ACCfig10011-eps-converted-t
+o.pdf ACCfig10011.eps>
+(epstopdf)             \includegraphics on input line 302.
+runsystem(epstopdf --outfile=ACCfig10011-eps-converted-to.pdf ACCfig10011.eps).
+..executed (allowed).
+
+Package epstopdf Info: Result file: <ACCfig10011-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-25 15:35:17
+(epstopdf)                    size: 35677 bytes.
+
+
+pdfTeX warning: pdflatex (file ./ACCfig10011-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<ACCfig10011-eps-converted-to.pdf, id=187, 330.23375pt x 333.245pt>
+File: ACCfig10011-eps-converted-to.pdf Graphic file (type pdf)
+<use ACCfig10011-eps-converted-to.pdf>
+Package pdftex.def Info: ACCfig10011-eps-converted-to.pdf  used on input line 3
+02.
+(pdftex.def)             Requested size: 498.07864pt x 502.63753pt.
+File: SAICLogo.png Graphic file (type png)
+<use SAICLogo.png>
+Package pdftex.def Info: SAICLogo.png  used on input line 305.
+(pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
+Package hyperref Info: Anchor `page.13' on input line 305.
+[13 <./ACCfig10011-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `chapter.2' on input line 305.
 
 Chapter 2.
-Package hyperref Info: bookmark on input line 131:
+Package hyperref Info: bookmark on input line 305:
 (hyperref)             thecounter {2}
 (hyperref)             text {\protect \numberline {\thechapter }AEB}
 (hyperref)             reference {chapter.2}
 (hyperref)             toclevel {0}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.5' on input line 132.
-[5
+Package hyperref Info: Anchor `page.14' on input line 306.
+[14
 
 ]
-Package hyperref Info: Anchor `section.2.1' on input line 134.
-Package hyperref Info: bookmark on input line 134:
-(hyperref)             thecounter {2.1}
-(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w3}AEB001Straig
-htCC0PctSpd30}
-(hyperref)             reference {section.2.1}
-(hyperref)             toclevel {1}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `subfigure.2.1.1' on input line 148.
-Package epstopdf Info: Source file: <fig10001.eps>
-(epstopdf)                    date: 2019-01-22 09:10:32
-(epstopdf)                    size: 652433 bytes
-(epstopdf)             Output file: <fig10001-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-01-23 08:30:33
-(epstopdf)                    size: 104814 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig10001-eps-converted-to.p
-df fig10001.eps>
-(epstopdf)             \includegraphics on input line 148.
-Package epstopdf Info: Output file is already uptodate.
-File: fig10001-eps-converted-to.pdf Graphic file (type pdf)
-<use fig10001-eps-converted-to.pdf>
-Package pdftex.def Info: fig10001-eps-converted-to.pdf  used on input line 148.
-
-(pdftex.def)             Requested size: 498.07864pt x 499.612pt.
-File: SAICLogo.png Graphic file (type png)
-<use SAICLogo.png>
-Package pdftex.def Info: SAICLogo.png  used on input line 151.
-(pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
-Package hyperref Info: Anchor `page.6' on input line 151.
- [6]
-Package hyperref Info: Anchor `section.2.2' on input line 153.
-Package hyperref Info: bookmark on input line 153:
-(hyperref)             thecounter {2.2}
-(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w4}AEB002Straig
-htCC0PctSpd90}
-(hyperref)             reference {section.2.2}
-(hyperref)             toclevel {1}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `subfigure.2.1.2' on input line 167.
-Package epstopdf Info: Source file: <fig10002.eps>
-(epstopdf)                    date: 2019-01-22 09:10:36
-(epstopdf)                    size: 652433 bytes
-(epstopdf)             Output file: <fig10002-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-01-23 08:30:35
-(epstopdf)                    size: 104814 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig10002-eps-converted-to.p
-df fig10002.eps>
-(epstopdf)             \includegraphics on input line 167.
-Package epstopdf Info: Output file is already uptodate.
-File: fig10002-eps-converted-to.pdf Graphic file (type pdf)
-<use fig10002-eps-converted-to.pdf>
-Package pdftex.def Info: fig10002-eps-converted-to.pdf  used on input line 167.
-
-(pdftex.def)             Requested size: 498.07864pt x 499.612pt.
-File: SAICLogo.png Graphic file (type png)
-<use SAICLogo.png>
-Package pdftex.def Info: SAICLogo.png  used on input line 170.
-(pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
-Package hyperref Info: Anchor `page.7' on input line 170.
- [7]
-Package hyperref Info: Anchor `chapter.3' on input line 170.
+Package hyperref Info: Anchor `chapter.3' on input line 306.
 
 Chapter 3.
-Package hyperref Info: bookmark on input line 170:
+Package hyperref Info: bookmark on input line 306:
 (hyperref)             thecounter {3}
 (hyperref)             text {\protect \numberline {\thechapter }LKA}
 (hyperref)             reference {chapter.3}
 (hyperref)             toclevel {0}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.8' on input line 171.
-[8
+Package hyperref Info: Anchor `page.15' on input line 307.
+[15
 
 ]
-Package hyperref Info: Anchor `section.3.1' on input line 173.
-Package hyperref Info: bookmark on input line 173:
-(hyperref)             thecounter {3.1}
-(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w5}LKA001Straig
-htCC0PctSpd30}
-(hyperref)             reference {section.3.1}
-(hyperref)             toclevel {1}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `subfigure.3.1.1' on input line 187.
-Package epstopdf Info: Source file: <fig10001.eps>
-(epstopdf)                    date: 2019-01-22 09:10:32
-(epstopdf)                    size: 652433 bytes
-(epstopdf)             Output file: <fig10001-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-01-23 08:30:33
-(epstopdf)                    size: 104814 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig10001-eps-converted-to.p
-df fig10001.eps>
-(epstopdf)             \includegraphics on input line 187.
-Package epstopdf Info: Output file is already uptodate.
-File: fig10001-eps-converted-to.pdf Graphic file (type pdf)
-<use fig10001-eps-converted-to.pdf>
-Package pdftex.def Info: fig10001-eps-converted-to.pdf  used on input line 187.
-
-(pdftex.def)             Requested size: 498.07864pt x 499.612pt.
-File: SAICLogo.png Graphic file (type png)
-<use SAICLogo.png>
-Package pdftex.def Info: SAICLogo.png  used on input line 190.
-(pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
-Package hyperref Info: Anchor `page.9' on input line 190.
- [9]
-Package hyperref Info: Anchor `section.3.2' on input line 192.
-Package hyperref Info: bookmark on input line 192:
-(hyperref)             thecounter {3.2}
-(hyperref)             text {\ifttl@toclabel \ttl@a \fi \label {w6}LKA002Straig
-htCC0PctSpd90}
-(hyperref)             reference {section.3.2}
-(hyperref)             toclevel {1}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `subfigure.3.1.2' on input line 206.
-Package epstopdf Info: Source file: <fig10002.eps>
-(epstopdf)                    date: 2019-01-22 09:10:36
-(epstopdf)                    size: 652433 bytes
-(epstopdf)             Output file: <fig10002-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-01-23 08:30:35
-(epstopdf)                    size: 104814 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig10002-eps-converted-to.p
-df fig10002.eps>
-(epstopdf)             \includegraphics on input line 206.
-Package epstopdf Info: Output file is already uptodate.
-File: fig10002-eps-converted-to.pdf Graphic file (type pdf)
-<use fig10002-eps-converted-to.pdf>
-Package pdftex.def Info: fig10002-eps-converted-to.pdf  used on input line 206.
-
-(pdftex.def)             Requested size: 498.07864pt x 499.612pt.
-File: SAICLogo.png Graphic file (type png)
-<use SAICLogo.png>
-Package pdftex.def Info: SAICLogo.png  used on input line 209.
-(pdftex.def)             Requested size: 58.90349pt x 20.11632pt.
-Package hyperref Info: Anchor `page.10' on input line 209.
- [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
  (EP21_ADAS_Test_Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 209.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 209.
-Package rerunfilecheck Info: File `EP21_ADAS_Test_Report.out' has not changed.
-(rerunfilecheck)             Checksum: 8530875794B23C268E0175B0B193F3D8;570.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 307.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
+
+
+Package rerunfilecheck Warning: File `EP21_ADAS_Test_Report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `EP21_ADAS_Test_Report.out':
+(rerunfilecheck)             Before: 413DB75E4246DBB2FF3A357BCAAC7309;684
+(rerunfilecheck)             After:  94E0134D71085EF4A4163B2C73811D4F;1154.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 25453 strings out of 492970
- 449928 string characters out of 3142944
- 595566 words of memory out of 3000000
- 28757 multiletter control sequences out of 15000+200000
- 11589 words of font info for 32 fonts, out of 3000000 for 9000
+ 25486 strings out of 492970
+ 450870 string characters out of 3142944
+ 596144 words of memory out of 3000000
+ 28788 multiletter control sequences out of 15000+200000
+ 12365 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,16n,54p,2005b,376s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\SAIC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
 cbx2488.pk> <C:\Users\SAIC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecti1200.pk> <C:\Users\SAIC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
-nappen\ec\dpi600\ecbx1728.pk> <C:\Users\SAIC\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\SAIC\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk>
-Output written on EP21_ADAS_Test_Report.pdf (11 pages, 1260632 bytes).
+\dpi600\ecbx1200.pk> <C:\Users\SAIC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecti1200.pk> <C:\Users\SAIC\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\SAIC\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\SAIC\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk>
+Output written on EP21_ADAS_Test_Report.pdf (16 pages, 1496830 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 357 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -55,7 +55,7 @@ pdfpagelayout=TwoPageRight,
 ]{hyperref} 
 \pagestyle{fancy} 
 \fancyhf{} 
-\rhead{EP21 ADAS HIL Test} 
+\rhead{EP21 ADAS Test Report} 
 \lhead{\includegraphics[scale=0.1]{SAICLogo}}  
 \rfoot{Page \thepage} 
  
@@ -78,28 +78,33 @@ pdfpagelayout=TwoPageRight,
 \centerline{\Large{\textbf{Result List}}} 
 \begin{CJK}{GBK}{kai} 
 \begin{tabbing} 
-\hspace*{30bp}\=blank\hspace*{30bp}\=testcasename\hspace*{200bp} \=result\kill 
-\>\textit{\underline{\ref{w1}}} \>ACC001StraightCC0PctSpd30\>Pass\\ 
-\>\textit{\underline{\ref{w2}}} \>ACC002StraightCC0PctSpd90\>\textcolor[rgb]{1,0,0}{Fail}\\ 
-\>\textit{\underline{\ref{w3}}} \>AEB001StraightCC0PctSpd30\>Pass\\ 
-\>\textit{\underline{\ref{w4}}} \>AEB001StraightCC0PctSpd90\>\textcolor[rgb]{1,0,0}{Fail}\\ 
-\>\textit{\underline{\ref{w5}}} \>LKA001StraightCC0PctSpd30\>Pass\\ 
-\>\textit{\underline{\ref{w6}}} \>LKA001StraightCC0PctSpd90\>\textcolor[rgb]{1,0,0}{Fail}\\ 
+\hspace*{30bp}\=blank\hspace*{30bp}\=testcasename\hspace*{250bp} \=result\kill 
+\>\textit{\underline{\ref{w1}}} \>ACCStraight001SlopeAngle0pctSpd30\>\textcolor[rgb]{1,1,0}{unknown}\\ 
+\>\textit{\underline{\ref{w2}}} \>ACCStraight002SlopeAngle2pctSpd30\>Pass\\ 
+\>\textit{\underline{\ref{w3}}} \>ACCStraight003SlopeAngle5pctSpd30\>\textcolor[rgb]{1,0,0}{Fail}\\ 
+\>\textit{\underline{\ref{w4}}} \>ACCStraightWithLeadingCar001SlopeAngle0pctSpd30\>\textcolor[rgb]{1,1,0}{unknown}\\ 
+\>\textit{\underline{\ref{w5}}} \>ACCStraightWithLeadingCar002SlopeAngle0pctSpd60\>Pass\\ 
+\>\textit{\underline{\ref{w6}}} \>ACCStraightWithLeadingCar002SlopeAngle2pctSpd30\>\textcolor[rgb]{1,0,0}{Fail}\\ 
+\>\textit{\underline{\ref{w7}}} \>ACCStraightWithLeadingCar003SlopeAngle2pctSpd30\>\textcolor[rgb]{1,1,0}{unknown}\\ 
+\>\textit{\underline{\ref{w8}}} \>ACCStraightWithLeadingCar003SlopeAngle5pctSpd30\>Pass\\ 
+\>\textit{\underline{\ref{w9}}} \>ACCStraightWithLeadingCar004SlopeAngle2pctSpd60\>\textcolor[rgb]{1,0,0}{Fail}\\ 
+\>\textit{\underline{\ref{w10}}} \>ACCStraightWithLeadingCar005SlopeAngle5pctSpd30\>\textcolor[rgb]{1,1,0}{unknown}\\ 
+\>\textit{\underline{\ref{w11}}} \>ACCStraightWithLeadingCar006SlopeAngle5pctSpd60\>Pass\\ 
 \end{tabbing} 
 \end{CJK} 
 \chapter{ACC} 
 \newpage 
 %\begin{center} 
-\section{\label{w1}ACC001StraightCC0PctSpd30} 
+\section{\label{w1}ACCStraight001SlopeAngle0pctSpd30} 
 %\end{center} 
 \begin{CJK}{GBK}{kai} 
 \begin{tabbing} 
 \hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
- \>TestcaseName:\>ACC001StraightCC0PctSpd30\\ 
- \>Result:\>Pass\\ 
+ \>TestcaseName:\>ACCStraight001SlopeAngle0pctSpd30\\ 
+ \>Result:\>unknown\\ 
  \>Vehicle:\>EP21 2018\\ 
  \>Engineer:\>Author\\ 
- \>Date:\>23-Jan-2019\\ 
+ \>Date:\>25-Jan-2019\\ 
 \end{tabbing} 
 \end{CJK} 
 \begin{figure}[ht]  
@@ -109,16 +114,16 @@ pdfpagelayout=TwoPageRight,
 \end{figure} 
 \newpage 
 %\begin{center} 
-\section{\label{w2}ACC002StraightCC0PctSpd90} 
+\section{\label{w2}ACCStraight002SlopeAngle2pctSpd30} 
 %\end{center} 
 \begin{CJK}{GBK}{kai} 
 \begin{tabbing} 
 \hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
- \>TestcaseName:\>ACC002StraightCC0PctSpd90\\ 
- \>Result:\>Fail\\ 
+ \>TestcaseName:\>ACCStraight002SlopeAngle2pctSpd30\\ 
+ \>Result:\>Pass\\ 
  \>Vehicle:\>EP21 2018\\ 
  \>Engineer:\>Author\\ 
- \>Date:\>23-Jan-2019\\ 
+ \>Date:\>25-Jan-2019\\ 
 \end{tabbing} 
 \end{CJK} 
 \begin{figure}[ht]  
@@ -126,82 +131,177 @@ pdfpagelayout=TwoPageRight,
 \begin{subfigure}{\includegraphics[width=0.95\linewidth]{ACCfig10002.eps}} 
 \end{subfigure} 
 \end{figure} 
+\newpage 
+%\begin{center} 
+\section{\label{w3}ACCStraight003SlopeAngle5pctSpd30} 
+%\end{center} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>ACCStraight003SlopeAngle5pctSpd30\\ 
+ \>Result:\>Fail\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>25-Jan-2019\\ 
+\end{tabbing} 
+\end{CJK} 
+\begin{figure}[ht]  
+\centering 
+\begin{subfigure}{\includegraphics[width=0.95\linewidth]{ACCfig10003.eps}} 
+\end{subfigure} 
+\end{figure} 
+\newpage 
+%\begin{center} 
+\section{\label{w4}ACCStraightWithLeadingCar001SlopeAngle0pctSpd30} 
+%\end{center} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>ACCStraightWithLeadingCar001SlopeAngle0pctSpd30\\ 
+ \>Result:\>unknown\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>25-Jan-2019\\ 
+\end{tabbing} 
+\end{CJK} 
+\begin{figure}[ht]  
+\centering 
+\begin{subfigure}{\includegraphics[width=0.95\linewidth]{ACCfig10004.eps}} 
+\end{subfigure} 
+\end{figure} 
+\newpage 
+%\begin{center} 
+\section{\label{w5}ACCStraightWithLeadingCar002SlopeAngle0pctSpd60} 
+%\end{center} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>ACCStraightWithLeadingCar002SlopeAngle0pctSpd60\\ 
+ \>Result:\>Pass\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>25-Jan-2019\\ 
+\end{tabbing} 
+\end{CJK} 
+\begin{figure}[ht]  
+\centering 
+\begin{subfigure}{\includegraphics[width=0.95\linewidth]{ACCfig10005.eps}} 
+\end{subfigure} 
+\end{figure} 
+\newpage 
+%\begin{center} 
+\section{\label{w6}ACCStraightWithLeadingCar002SlopeAngle2pctSpd30} 
+%\end{center} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>ACCStraightWithLeadingCar002SlopeAngle2pctSpd30\\ 
+ \>Result:\>Fail\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>25-Jan-2019\\ 
+\end{tabbing} 
+\end{CJK} 
+\begin{figure}[ht]  
+\centering 
+\begin{subfigure}{\includegraphics[width=0.95\linewidth]{ACCfig10006.eps}} 
+\end{subfigure} 
+\end{figure} 
+\newpage 
+%\begin{center} 
+\section{\label{w7}ACCStraightWithLeadingCar003SlopeAngle2pctSpd30} 
+%\end{center} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>ACCStraightWithLeadingCar003SlopeAngle2pctSpd30\\ 
+ \>Result:\>unknown\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>25-Jan-2019\\ 
+\end{tabbing} 
+\end{CJK} 
+\begin{figure}[ht]  
+\centering 
+\begin{subfigure}{\includegraphics[width=0.95\linewidth]{ACCfig10007.eps}} 
+\end{subfigure} 
+\end{figure} 
+\newpage 
+%\begin{center} 
+\section{\label{w8}ACCStraightWithLeadingCar003SlopeAngle5pctSpd30} 
+%\end{center} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>ACCStraightWithLeadingCar003SlopeAngle5pctSpd30\\ 
+ \>Result:\>Pass\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>25-Jan-2019\\ 
+\end{tabbing} 
+\end{CJK} 
+\begin{figure}[ht]  
+\centering 
+\begin{subfigure}{\includegraphics[width=0.95\linewidth]{ACCfig10008.eps}} 
+\end{subfigure} 
+\end{figure} 
+\newpage 
+%\begin{center} 
+\section{\label{w9}ACCStraightWithLeadingCar004SlopeAngle2pctSpd60} 
+%\end{center} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>ACCStraightWithLeadingCar004SlopeAngle2pctSpd60\\ 
+ \>Result:\>Fail\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>25-Jan-2019\\ 
+\end{tabbing} 
+\end{CJK} 
+\begin{figure}[ht]  
+\centering 
+\begin{subfigure}{\includegraphics[width=0.95\linewidth]{ACCfig10009.eps}} 
+\end{subfigure} 
+\end{figure} 
+\newpage 
+%\begin{center} 
+\section{\label{w10}ACCStraightWithLeadingCar005SlopeAngle5pctSpd30} 
+%\end{center} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>ACCStraightWithLeadingCar005SlopeAngle5pctSpd30\\ 
+ \>Result:\>unknown\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>25-Jan-2019\\ 
+\end{tabbing} 
+\end{CJK} 
+\begin{figure}[ht]  
+\centering 
+\begin{subfigure}{\includegraphics[width=0.95\linewidth]{ACCfig10010.eps}} 
+\end{subfigure} 
+\end{figure} 
+\newpage 
+%\begin{center} 
+\section{\label{w11}ACCStraightWithLeadingCar006SlopeAngle5pctSpd60} 
+%\end{center} 
+\begin{CJK}{GBK}{kai} 
+\begin{tabbing} 
+\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
+ \>TestcaseName:\>ACCStraightWithLeadingCar006SlopeAngle5pctSpd60\\ 
+ \>Result:\>Pass\\ 
+ \>Vehicle:\>EP21 2018\\ 
+ \>Engineer:\>Author\\ 
+ \>Date:\>25-Jan-2019\\ 
+\end{tabbing} 
+\end{CJK} 
+\begin{figure}[ht]  
+\centering 
+\begin{subfigure}{\includegraphics[width=0.95\linewidth]{ACCfig10011.eps}} 
+\end{subfigure} 
+\end{figure} 
 \chapter{AEB} 
-\newpage 
-%\begin{center} 
-\section{\label{w3}AEB001StraightCC0PctSpd30} 
-%\end{center} 
-\begin{CJK}{GBK}{kai} 
-\begin{tabbing} 
-\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
- \>TestcaseName:\>AEB001StraightCC0PctSpd30\\ 
- \>Result:\>Pass\\ 
- \>Vehicle:\>EP21 2018\\ 
- \>Engineer:\>Author\\ 
- \>Date:\>23-Jan-2019\\ 
-\end{tabbing} 
-\end{CJK} 
-\begin{figure}[ht]  
-\centering 
-\begin{subfigure}{\includegraphics[width=0.95\linewidth]{AEBfig10001.eps}} 
-\end{subfigure} 
-\end{figure} 
-\newpage 
-%\begin{center} 
-\section{\label{w4}AEB002StraightCC0PctSpd90} 
-%\end{center} 
-\begin{CJK}{GBK}{kai} 
-\begin{tabbing} 
-\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
- \>TestcaseName:\>AEB002StraightCC0PctSpd90\\ 
- \>Result:\>Fail\\ 
- \>Vehicle:\>EP21 2018\\ 
- \>Engineer:\>Author\\ 
- \>Date:\>23-Jan-2019\\ 
-\end{tabbing} 
-\end{CJK} 
-\begin{figure}[ht]  
-\centering 
-\begin{subfigure}{\includegraphics[width=0.95\linewidth]{AEBfig10002.eps}} 
-\end{subfigure} 
-\end{figure} 
 \chapter{LKA} 
-\newpage 
-%\begin{center} 
-\section{\label{w5}LKA001StraightCC0PctSpd30} 
-%\end{center} 
-\begin{CJK}{GBK}{kai} 
-\begin{tabbing} 
-\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
- \>TestcaseName:\>LKA001StraightCC0PctSpd30\\ 
- \>Result:\>Pass\\ 
- \>Vehicle:\>EP21 2018\\ 
- \>Engineer:\>Author\\ 
- \>Date:\>23-Jan-2019\\ 
-\end{tabbing} 
-\end{CJK} 
-\begin{figure}[ht]  
-\centering 
-\begin{subfigure}{\includegraphics[width=0.95\linewidth]{LKAfig10001.eps}} 
-\end{subfigure} 
-\end{figure} 
-\newpage 
-%\begin{center} 
-\section{\label{w6}LKA002StraightCC0PctSpd90} 
-%\end{center} 
-\begin{CJK}{GBK}{kai} 
-\begin{tabbing} 
-\hspace*{40bp}\=blank\hspace*{80bp}\=Contents\kill 
- \>TestcaseName:\>LKA002StraightCC0PctSpd90\\ 
- \>Result:\>Fail\\ 
- \>Vehicle:\>EP21 2018\\ 
- \>Engineer:\>Author\\ 
- \>Date:\>23-Jan-2019\\ 
-\end{tabbing} 
-\end{CJK} 
-\begin{figure}[ht]  
-\centering 
-\begin{subfigure}{\includegraphics[width=0.95\linewidth]{LKAfig10002.eps}} 
-\end{subfigure} 
-\end{figure} 
 \end{document} 
